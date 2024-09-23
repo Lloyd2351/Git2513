@@ -1,0 +1,2668 @@
+00:00:01.421593 VirtualBox VM 6.1.46 r158378 linux.amd64 (Dec  7 2023 11:01:30) release log
+00:00:01.421595 Log opened 2024-09-06T06:31:33.509743000Z
+00:00:01.421596 Build Type: release
+00:00:01.421598 OS Product: Linux
+00:00:01.421599 OS Release: 6.1.81-un-def-alt1
+00:00:01.421599 OS Version: #1 SMP PREEMPT_DYNAMIC Tue Mar 12 14:02:38 UTC 2024
+00:00:01.421628 DMI Product Name: Graviton N15i
+00:00:01.421638 DMI Product Version: 1.0
+00:00:01.421646 Firmware type: UEFI
+00:00:01.421862 Secure Boot: Disabled
+00:00:01.421898 Host RAM: 7812MB (7.6GB) total, 2461MB (2.4GB) available
+00:00:01.421901 Executable: /usr/lib64/virtualbox/VirtualBoxVM
+00:00:01.421902 Process ID: 8431
+00:00:01.421903 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.425323 Installed Extension Packs:
+00:00:01.425341   VNC (Version: 6.1.46 r158378; VRDE Module: VBoxVNC)
+00:00:01.425805 Console: Machine state changed to 'Starting'
+00:00:01.425926 Qt version: 5.15.12
+00:00:01.425932 X11 Window Manager code: 3
+00:00:01.437958 VRDE: loaded version 3 of the server.
+00:00:01.440884 SUP: Opened VMMR0.r0 (/usr/lib64/virtualbox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX.
+00:00:01.442103 Guest OS type: 'RedHat_64'
+00:00:01.443554 fHMForced=true - No raw-mode support in this build!
+00:00:01.448335 File system of '/home/PPK.EDU/ol21/VM_discs/HQ-SRV.vdi' is btrfs
+00:00:01.450198 File system of '/home/PPK.EDU/ol21/Рабочий стол/alt_serv.iso' (DVD) is btrfs
+00:00:01.454629 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.456513 X Server details: vendor: The X.Org Foundation, release: 12014000, protocol version: 11.0, display string: :0
+00:00:01.456535 Using XKB for keycode to scan code conversion
+00:00:01.465336 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1016
+00:00:01.468379 Shared Clipboard: Service loaded
+00:00:01.468397 Shared Clipboard: Mode: Off
+00:00:01.468442 Shared Clipboard: Service running in normal mode
+00:00:01.469480 Drag and drop service loaded
+00:00:01.469507 Drag and drop mode: Off
+00:00:01.472765 ************************* CFGM dump *************************
+00:00:01.472782 [/] (level 0)
+00:00:01.472811   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:01.472820   EnablePAE         <integer> = 0x0000000000000001 (1)
+00:00:01.472822   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:01.472823   MemBalloonSize    <integer> = 0x0000000000000000 (0)
+00:00:01.472825   Name              <string>  = "HQ-SRV" (cb=7)
+00:00:01.472826   NumCPUs           <integer> = 0x0000000000000004 (4)
+00:00:01.472828   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:01.472829   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:01.472831   RamSize           <integer> = 0x0000000100000000 (4 294 967 296, 4 096 MB, 4.0 GB)
+00:00:01.472835   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:01.472836   UUID              <bytes>   = "54 76 6e 05 51 78 64 4c 89 42 2f 9a 69 45 cb 93" (cb=16)
+00:00:01.472843 
+00:00:01.472854 [/CPUM/] (level 1)
+00:00:01.472857   GuestCpuName       <string>  = "host" (cb=5)
+00:00:01.472859   NestedHWVirt       <integer> = 0x0000000000000000 (0)
+00:00:01.472860   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:01.472862   SpecCtrl           <integer> = 0x0000000000000000 (0)
+00:00:01.472863 
+00:00:01.472864 [/CPUM/IsaExts/] (level 2)
+00:00:01.472866 
+00:00:01.472875 [/DBGC/] (level 1)
+00:00:01.472877   GlobalInitScript <string>  = "/home/PPK.EDU/ol21/.config/VirtualBox/dbgc-init" (cb=48)
+00:00:01.472878   HistoryFile      <string>  = "/home/PPK.EDU/ol21/.config/VirtualBox/dbgc-history" (cb=51)
+00:00:01.472880   LocalInitScript  <string>  = "/home/PPK.EDU/ol21/VirtualBox VMs/HQ-SRV/dbgc-init" (cb=51)
+00:00:01.472881 
+00:00:01.472881 [/DBGF/] (level 1)
+00:00:01.472883   Path <string>  = "/home/PPK.EDU/ol21/VirtualBox VMs/HQ-SRV/debug/;/home/PPK.EDU/ol21/VirtualBox VMs/HQ-SRV/;cache*/home/PPK.EDU/ol21/VirtualBox VMs/HQ-SRV/dbgcache/;/home/PPK.EDU/ol21/" (cb=167)
+00:00:01.472884 
+00:00:01.472884 [/Devices/] (level 1)
+00:00:01.472886 
+00:00:01.472886 [/Devices/8237A/] (level 2)
+00:00:01.472888 
+00:00:01.472889 [/Devices/8237A/0/] (level 3)
+00:00:01.472891   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.472892 
+00:00:01.472892 [/Devices/GIMDev/] (level 2)
+00:00:01.472894 
+00:00:01.472895 [/Devices/GIMDev/0/] (level 3)
+00:00:01.472896   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.472898 
+00:00:01.472899 [/Devices/VMMDev/] (level 2)
+00:00:01.472900 
+00:00:01.472901 [/Devices/VMMDev/0/] (level 3)
+00:00:01.472904   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.472905   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:01.472906   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.472908   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.472909 
+00:00:01.472909 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:01.472911   GuestCoreDumpDir <string>  = "/home/PPK.EDU/ol21/VirtualBox VMs/HQ-SRV/Snapshots" (cb=51)
+00:00:01.472912 
+00:00:01.472913 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:01.472915   Driver <string>  = "HGCM" (cb=5)
+00:00:01.472916 
+00:00:01.472916 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:01.472918   Object <integer> = 0x00007f6074000bb0 (140 052 239 748 016)
+00:00:01.472930 
+00:00:01.472931 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:01.472932   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.472934 
+00:00:01.472934 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:01.472937   First   <integer> = 0x0000000000000000 (0)
+00:00:01.472938   Last    <integer> = 0x0000000000000000 (0)
+00:00:01.472939   papLeds <integer> = 0x00007f60980031c0 (140 052 843 737 536)
+00:00:01.472940 
+00:00:01.472941 [/Devices/acpi/] (level 2)
+00:00:01.472943 
+00:00:01.472943 [/Devices/acpi/0/] (level 3)
+00:00:01.472945   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.472946   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:01.472947   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.472948   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.472950 
+00:00:01.472950 [/Devices/acpi/0/Config/] (level 4)
+00:00:01.472954   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:01.472957   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:01.472958   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:01.472960   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:01.472961   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:01.472962   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:01.472964   NumCPUs             <integer> = 0x0000000000000004 (4)
+00:00:01.472965   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:01.472966   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:01.472967   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:01.472968   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:01.472969   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:01.472970   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:01.472971   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:01.472972   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:01.472973   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:01.472974   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:01.472975   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:01.472976 
+00:00:01.472977 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:01.472978   Driver <string>  = "ACPIHost" (cb=9)
+00:00:01.472979 
+00:00:01.472979 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:01.472981 
+00:00:01.472981 [/Devices/acpi/0/LUN#1/] (level 4)
+00:00:01.472982   Driver <string>  = "ACPICpu" (cb=8)
+00:00:01.472983 
+00:00:01.472984 [/Devices/acpi/0/LUN#1/Config/] (level 5)
+00:00:01.472985 
+00:00:01.472986 [/Devices/acpi/0/LUN#2/] (level 4)
+00:00:01.472987   Driver <string>  = "ACPICpu" (cb=8)
+00:00:01.472988 
+00:00:01.472988 [/Devices/acpi/0/LUN#2/Config/] (level 5)
+00:00:01.472990 
+00:00:01.472990 [/Devices/acpi/0/LUN#3/] (level 4)
+00:00:01.472992   Driver <string>  = "ACPICpu" (cb=8)
+00:00:01.472992 
+00:00:01.472993 [/Devices/acpi/0/LUN#3/Config/] (level 5)
+00:00:01.472994 
+00:00:01.472995 [/Devices/ahci/] (level 2)
+00:00:01.472996 
+00:00:01.472997 [/Devices/ahci/0/] (level 3)
+00:00:01.472998   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.472999   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:01.473000   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.473002   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.473003 
+00:00:01.473003 [/Devices/ahci/0/Config/] (level 4)
+00:00:01.473005   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:01.473006   PortCount <integer> = 0x000000000000001e (30)
+00:00:01.473007 
+00:00:01.473007 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:01.473009   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:01.473009 
+00:00:01.473010 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:01.473011   Driver <string>  = "VD" (cb=3)
+00:00:01.473012 
+00:00:01.473012 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:01.473015   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:01.473016   Format     <string>  = "VDI" (cb=4)
+00:00:01.473017   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:01.473018   Path       <string>  = "/home/PPK.EDU/ol21/VM_discs/HQ-SRV.vdi" (cb=39)
+00:00:01.473019   Type       <string>  = "HardDisk" (cb=9)
+00:00:01.473020   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:01.473021 
+00:00:01.473022 [/Devices/ahci/0/LUN#0/Config/VDConfig/] (level 6)
+00:00:01.473024   AllocationBlockSize <string>  = "1048576" (cb=8)
+00:00:01.473025 
+00:00:01.473026 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:01.473027   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.473028 
+00:00:01.473028 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:01.473030   DeviceInstance        <string>  = "ahci/0" (cb=7)
+00:00:01.473032   First                 <integer> = 0x0000000000000000 (0)
+00:00:01.473033   Last                  <integer> = 0x000000000000001d (29)
+00:00:01.473034   pConsole              <integer> = 0x00007f6098001360 (140 052 843 729 760)
+00:00:01.473036   papLeds               <integer> = 0x00007f6098001ec0 (140 052 843 732 672)
+00:00:01.473038   pmapMediumAttachments <integer> = 0x00007f60980031e0 (140 052 843 737 568)
+00:00:01.473039 
+00:00:01.473040 [/Devices/apic/] (level 2)
+00:00:01.473042 
+00:00:01.473043 [/Devices/apic/0/] (level 3)
+00:00:01.473044   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.473046 
+00:00:01.473047 [/Devices/apic/0/Config/] (level 4)
+00:00:01.473049   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:01.473050   Mode    <integer> = 0x0000000000000003 (3)
+00:00:01.473051   NumCPUs <integer> = 0x0000000000000004 (4)
+00:00:01.473052 
+00:00:01.473053 [/Devices/e1000/] (level 2)
+00:00:01.473055 
+00:00:01.473055 [/Devices/e1000/0/] (level 3)
+00:00:01.473057   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.473058   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:01.473059   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.473060   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.473062 
+00:00:01.473062 [/Devices/e1000/0/Config/] (level 4)
+00:00:01.473064   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:01.473065   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:01.473066   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:01.473067   MAC            <bytes>   = "08 00 27 db 1f 95" (cb=6)
+00:00:01.473069 
+00:00:01.473070 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:01.473072   Driver <string>  = "IntNet" (cb=7)
+00:00:01.473073 
+00:00:01.473073 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:01.473076   IfPolicyPromisc <string>  = "deny" (cb=5)
+00:00:01.473077   Network         <string>  = "HQ-SRV-HQ-R" (cb=12)
+00:00:01.473078   TrunkType       <integer> = 0x0000000000000002 (2)
+00:00:01.473080 
+00:00:01.473080 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:01.473082   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.473083 
+00:00:01.473084 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:01.473087   First   <integer> = 0x0000000000000000 (0)
+00:00:01.473088   Last    <integer> = 0x0000000000000000 (0)
+00:00:01.473089   papLeds <integer> = 0x00007f60980030a0 (140 052 843 737 248)
+00:00:01.473091 
+00:00:01.473092 [/Devices/i8254/] (level 2)
+00:00:01.473094 
+00:00:01.473094 [/Devices/i8254/0/] (level 3)
+00:00:01.473096 
+00:00:01.473097 [/Devices/i8254/0/Config/] (level 4)
+00:00:01.473099 
+00:00:01.473099 [/Devices/i8259/] (level 2)
+00:00:01.473101 
+00:00:01.473101 [/Devices/i8259/0/] (level 3)
+00:00:01.473103   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.473105 
+00:00:01.473105 [/Devices/i8259/0/Config/] (level 4)
+00:00:01.473108 
+00:00:01.473108 [/Devices/ichac97/] (level 2)
+00:00:01.473110 
+00:00:01.473110 [/Devices/ichac97/0/] (level 3)
+00:00:01.473112   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.473113   PCIDeviceNo   <integer> = 0x0000000000000005 (5)
+00:00:01.473115   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.473116   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.473117 
+00:00:01.473118 [/Devices/ichac97/0/AudioConfig/] (level 4)
+00:00:01.473120 
+00:00:01.473120 [/Devices/ichac97/0/Config/] (level 4)
+00:00:01.473123   Codec        <string>  = "STAC9700" (cb=9)
+00:00:01.473124   DebugEnabled <integer> = 0x0000000000000000 (0)
+00:00:01.473125 
+00:00:01.473126 [/Devices/ichac97/0/LUN#0/] (level 4)
+00:00:01.473128   Driver <string>  = "AUDIO" (cb=6)
+00:00:01.473129 
+00:00:01.473129 [/Devices/ichac97/0/LUN#0/AttachedDriver/] (level 5)
+00:00:01.473132   Driver <string>  = "PulseAudio" (cb=11)
+00:00:01.473133 
+00:00:01.473134 [/Devices/ichac97/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:01.473136   VmName <string>  = "HQ-SRV" (cb=7)
+00:00:01.473137 
+00:00:01.473137 [/Devices/ichac97/0/LUN#0/Config/] (level 5)
+00:00:01.473139   DriverName    <string>  = "PulseAudio" (cb=11)
+00:00:01.473140   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:01.473141   OutputEnabled <integer> = 0x0000000000000000 (0)
+00:00:01.473141 
+00:00:01.473142 [/Devices/ichac97/0/LUN#1/] (level 4)
+00:00:01.473143   Driver <string>  = "AUDIO" (cb=6)
+00:00:01.473144 
+00:00:01.473144 [/Devices/ichac97/0/LUN#2/] (level 4)
+00:00:01.473146   Driver <string>  = "AUDIO" (cb=6)
+00:00:01.473147 
+00:00:01.473148 [/Devices/ioapic/] (level 2)
+00:00:01.473149 
+00:00:01.473150 [/Devices/ioapic/0/] (level 3)
+00:00:01.473151   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.473152 
+00:00:01.473153 [/Devices/ioapic/0/Config/] (level 4)
+00:00:01.473155   NumCPUs <integer> = 0x0000000000000004 (4)
+00:00:01.473156 
+00:00:01.473156 [/Devices/mc146818/] (level 2)
+00:00:01.473158 
+00:00:01.473158 [/Devices/mc146818/0/] (level 3)
+00:00:01.473160 
+00:00:01.473161 [/Devices/mc146818/0/Config/] (level 4)
+00:00:01.473163   UseUTC <integer> = 0x0000000000000000 (0)
+00:00:01.473164 
+00:00:01.473165 [/Devices/parallel/] (level 2)
+00:00:01.473166 
+00:00:01.473167 [/Devices/pcarch/] (level 2)
+00:00:01.473168 
+00:00:01.473169 [/Devices/pcarch/0/] (level 3)
+00:00:01.473170   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.473171 
+00:00:01.473172 [/Devices/pcarch/0/Config/] (level 4)
+00:00:01.473174 
+00:00:01.473174 [/Devices/pcbios/] (level 2)
+00:00:01.473176 
+00:00:01.473177 [/Devices/pcbios/0/] (level 3)
+00:00:01.473178   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.473179 
+00:00:01.473180 [/Devices/pcbios/0/Config/] (level 4)
+00:00:01.473182   APIC               <integer> = 0x0000000000000001 (1)
+00:00:01.473184   BootDevice0        <string>  = "FLOPPY" (cb=7)
+00:00:01.473185   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:01.473186   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:01.473187   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:01.473189   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:01.473190   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:01.473191   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:01.473192   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:01.473194   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:01.473195   NumCPUs            <integer> = 0x0000000000000004 (4)
+00:00:01.473197   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:01.473198   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:01.473199   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:01.473201   UUID               <bytes>   = "54 76 6e 05 51 78 64 4c 89 42 2f 9a 69 45 cb 93" (cb=16)
+00:00:01.473205   UuidLe             <integer> = 0x0000000000000001 (1)
+00:00:01.473207 
+00:00:01.473207 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:01.473209 
+00:00:01.473210 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:01.473212   NIC           <integer> = 0x0000000000000000 (0)
+00:00:01.473214   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.473215   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:01.473216   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.473217 
+00:00:01.473218 [/Devices/pci/] (level 2)
+00:00:01.473220 
+00:00:01.473220 [/Devices/pci/0/] (level 3)
+00:00:01.473222   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.473223 
+00:00:01.473223 [/Devices/pci/0/Config/] (level 4)
+00:00:01.473225   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:01.473226 
+00:00:01.473260 [/Devices/pcibridge/] (level 2)
+00:00:01.473263 
+00:00:01.473263 [/Devices/pckbd/] (level 2)
+00:00:01.473264 
+00:00:01.473265 [/Devices/pckbd/0/] (level 3)
+00:00:01.473267   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.473268 
+00:00:01.473268 [/Devices/pckbd/0/Config/] (level 4)
+00:00:01.473270 
+00:00:01.473271 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:01.473273   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:01.473274 
+00:00:01.473274 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:01.473277   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:01.473278 
+00:00:01.473278 [/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:01.473281   Object <integer> = 0x0000556e66aac130 (93 932 657 230 128)
+00:00:01.473282 
+00:00:01.473283 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:01.473285   QueueSize <integer> = 0x0000000000000040 (64)
+00:00:01.473286 
+00:00:01.473287 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:01.473289   Driver <string>  = "MouseQueue" (cb=11)
+00:00:01.473290 
+00:00:01.473290 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:01.473292   Driver <string>  = "MainMouse" (cb=10)
+00:00:01.473293 
+00:00:01.473294 [/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:01.473296   Object <integer> = 0x00007f60980104f0 (140 052 843 791 600)
+00:00:01.473298 
+00:00:01.473299 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:01.473301   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:01.473302 
+00:00:01.473303 [/Devices/pcnet/] (level 2)
+00:00:01.473304 
+00:00:01.473305 [/Devices/piix3ide/] (level 2)
+00:00:01.473306 
+00:00:01.473307 [/Devices/piix3ide/0/] (level 3)
+00:00:01.473309   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.473310   PCIDeviceNo   <integer> = 0x0000000000000001 (1)
+00:00:01.473311   PCIFunctionNo <integer> = 0x0000000000000001 (1)
+00:00:01.473312   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.473314 
+00:00:01.473314 [/Devices/piix3ide/0/Config/] (level 4)
+00:00:01.473316   Type <string>  = "PIIX4" (cb=6)
+00:00:01.473317 
+00:00:01.473317 [/Devices/piix3ide/0/LUN#0/] (level 4)
+00:00:01.473320   Driver <string>  = "VD" (cb=3)
+00:00:01.473321 
+00:00:01.473321 [/Devices/piix3ide/0/LUN#0/Config/] (level 5)
+00:00:01.473325   Format    <string>  = "RAW" (cb=4)
+00:00:01.473327   Mountable <integer> = 0x0000000000000001 (1)
+00:00:01.473328   Path      <string>  = "/home/PPK.EDU/ol21/Рабочий стол/alt_serv.iso" (cb=56)
+00:00:01.473329   ReadOnly  <integer> = 0x0000000000000001 (1)
+00:00:01.473330   Type      <string>  = "DVD" (cb=4)
+00:00:01.473333 
+00:00:01.473333 [/Devices/piix3ide/0/LUN#999/] (level 4)
+00:00:01.473335   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.473337 
+00:00:01.473337 [/Devices/piix3ide/0/LUN#999/Config/] (level 5)
+00:00:01.473340   DeviceInstance        <string>  = "piix3ide/0" (cb=11)
+00:00:01.473342   First                 <integer> = 0x0000000000000000 (0)
+00:00:01.473343   Last                  <integer> = 0x0000000000000003 (3)
+00:00:01.473345   pConsole              <integer> = 0x00007f6098001360 (140 052 843 729 760)
+00:00:01.473347   papLeds               <integer> = 0x00007f6098001ea0 (140 052 843 732 640)
+00:00:01.473349   pmapMediumAttachments <integer> = 0x00007f60980031e0 (140 052 843 737 568)
+00:00:01.473350 
+00:00:01.473351 [/Devices/serial/] (level 2)
+00:00:01.473352 
+00:00:01.473353 [/Devices/vga/] (level 2)
+00:00:01.473354 
+00:00:01.473355 [/Devices/vga/0/] (level 3)
+00:00:01.473357   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.473358   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:01.473359   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.473360   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.473361 
+00:00:01.473362 [/Devices/vga/0/Config/] (level 4)
+00:00:01.473364   3DEnabled        <integer> = 0x0000000000000000 (0)
+00:00:01.473365   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:01.473367   FadeIn           <integer> = 0x0000000000000001 (1)
+00:00:01.473368   FadeOut          <integer> = 0x0000000000000001 (1)
+00:00:01.473369   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:01.473370   LogoFile         <string>  = "" (cb=1)
+00:00:01.473372   LogoTime         <integer> = 0x0000000000000000 (0)
+00:00:01.473373   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:01.473374   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:01.473375   VRamSize         <integer> = 0x0000000000c00000 (12 582 912, 12 MB)
+00:00:01.473378 
+00:00:01.473378 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:01.473380   Driver <string>  = "MainDisplay" (cb=12)
+00:00:01.473381 
+00:00:01.473382 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:01.473384   Object <integer> = 0x00007f6098003990 (140 052 843 739 536)
+00:00:01.473386 
+00:00:01.473386 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:01.473388   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.473389 
+00:00:01.473389 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:01.473392   First   <integer> = 0x0000000000000000 (0)
+00:00:01.473393   Last    <integer> = 0x0000000000000000 (0)
+00:00:01.473394   papLeds <integer> = 0x00007f60980031d8 (140 052 843 737 560)
+00:00:01.473396 
+00:00:01.473396 [/Devices/virtio-net/] (level 2)
+00:00:01.473398 
+00:00:01.473399 [/EM/] (level 1)
+00:00:01.473400   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:01.473401 
+00:00:01.473402 [/GIM/] (level 1)
+00:00:01.473403   Provider <string>  = "KVM" (cb=4)
+00:00:01.473404 
+00:00:01.473405 [/HM/] (level 1)
+00:00:01.473406   64bitEnabled       <integer> = 0x0000000000000001 (1)
+00:00:01.473408   EnableLargePages   <integer> = 0x0000000000000000 (0)
+00:00:01.473409   EnableNestedPaging <integer> = 0x0000000000000001 (1)
+00:00:01.473410   EnableUX           <integer> = 0x0000000000000001 (1)
+00:00:01.473411   EnableVPID         <integer> = 0x0000000000000001 (1)
+00:00:01.473413   Exclusive          <integer> = 0x0000000000000001 (1)
+00:00:01.473414   HMForced           <integer> = 0x0000000000000001 (1)
+00:00:01.473416   IBPBOnVMEntry      <integer> = 0x0000000000000000 (0)
+00:00:01.473417   IBPBOnVMExit       <integer> = 0x0000000000000000 (0)
+00:00:01.473418   L1DFlushOnSched    <integer> = 0x0000000000000001 (1)
+00:00:01.473420   L1DFlushOnVMEntry  <integer> = 0x0000000000000000 (0)
+00:00:01.473421   MDSClearOnSched    <integer> = 0x0000000000000001 (1)
+00:00:01.473422   MDSClearOnVMEntry  <integer> = 0x0000000000000000 (0)
+00:00:01.473423   SpecCtrlByHost     <integer> = 0x0000000000000000 (0)
+00:00:01.473424   UseNEMInstead      <integer> = 0x0000000000000000 (0)
+00:00:01.473426 
+00:00:01.473426 [/MM/] (level 1)
+00:00:01.473427   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:01.473429 
+00:00:01.473429 [/NEM/] (level 1)
+00:00:01.473430   Allow64BitGuests <integer> = 0x0000000000000001 (1)
+00:00:01.473432 
+00:00:01.473432 [/PDM/] (level 1)
+00:00:01.473433 
+00:00:01.473434 [/PDM/AsyncCompletion/] (level 2)
+00:00:01.473436 
+00:00:01.473436 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:01.473438 
+00:00:01.473438 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:01.473440 
+00:00:01.473441 [/PDM/BlkCache/] (level 2)
+00:00:01.473443   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5 MB)
+00:00:01.473444 
+00:00:01.473445 [/PDM/Devices/] (level 2)
+00:00:01.473446 
+00:00:01.473446 [/PDM/Drivers/] (level 2)
+00:00:01.473448 
+00:00:01.473448 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:01.473450   Path <string>  = "/usr/lib64/virtualbox/components/VBoxC" (cb=39)
+00:00:01.473451 
+00:00:01.473451 [/PDM/NetworkShaper/] (level 2)
+00:00:01.473453 
+00:00:01.473453 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:01.473455 
+00:00:01.473455 [/TM/] (level 1)
+00:00:01.473456   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:01.473457 
+00:00:01.473459 ********************* End of CFGM dump **********************
+00:00:01.475239 HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support
+00:00:01.475328 MM: cbHyperHeap=0x240000 (2359296)
+00:00:01.477696 CPUM: fXStateHostMask=0x7; initial: 0x7; host XCR0=0x1f
+00:00:01.480805 CPUM: Matched host CPU INTEL 0x6/0x8e/0xc Intel_Core7_CoffeeLake with CPU DB entry 'Intel Core i7-6700K' (INTEL 0x6/0x5e/0x3 Intel_Core7_Skylake)
+00:00:01.480891 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:01.480928 CPUM: Microcode revision 0x000000F8
+00:00:01.480941 CPUM: Changing leaf 13[0]: EBX=0x440 -> 0x340, ECX=0x440 -> 0x340
+00:00:01.480949 CPUM: MSR/CPUID reconciliation insert: 0x0000010b IA32_FLUSH_CMD
+00:00:01.480957 CPUM: MSR/CPUID reconciliation insert: 0x0000010a IA32_ARCH_CAPABILITIES
+00:00:01.480966 CPUM: MSR fudge: 0x00000122 IA32_TSX_CTRL
+00:00:01.480995 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:01.481147 PGM: Host paging mode: AMD64+PGE+NX
+00:00:01.481161 PGM: PGMPool: cMaxPages=2304 (u64MaxPages=2084)
+00:00:01.481166 PGM: pgmR3PoolInit: cMaxPages=0x900 cMaxUsers=0x1200 cMaxPhysExts=0x1200 fCacheEnable=true 
+00:00:01.481604 PGM: /proc/sys/vm/max_map_count = 65530 (rc2=VWRN_TRAILING_CHARS); cGuessNeeded=16384
+00:00:01.482933 GUI: Machine-window #0 activated
+00:00:01.483015 GUI: Machine-view #0 focused, reason=3
+00:00:01.488162 TM: GIP - u32Mode=3 (Invariant) u32UpdateHz=100 u32UpdateIntervalNS=10000000 enmUseTscDelta=2 (Practically Zero) fGetGipCpu=0x1b cCpus=8
+00:00:01.488191 TM: GIP - u64CpuHz=1 607 972 773 (0x5fd7b7a5)  SUPGetCpuHzFromGip => 1 607 972 773
+00:00:01.488196 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x3 i64TSCDelta=0 enmState=3 u64CpuHz=1607997986(*) cErrors=0
+00:00:01.488200 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x2 iGipCpu=0x5 i64TSCDelta=0 enmState=3 u64CpuHz=1607997979(*) cErrors=0
+00:00:01.488203 TM: GIP - CPU: iCpuSet=0x2 idCpu=0x2 idApic=0x4 iGipCpu=0x7 i64TSCDelta=0 enmState=3 u64CpuHz=1607997984(*) cErrors=0
+00:00:01.488205 TM: GIP - CPU: iCpuSet=0x3 idCpu=0x3 idApic=0x6 iGipCpu=0x6 i64TSCDelta=0 enmState=3 u64CpuHz=1607997985(*) cErrors=0
+00:00:01.488208 TM: GIP - CPU: iCpuSet=0x4 idCpu=0x4 idApic=0x1 iGipCpu=0x4 i64TSCDelta=0 enmState=3 u64CpuHz=1607997969(*) cErrors=0
+00:00:01.488211 TM: GIP - CPU: iCpuSet=0x5 idCpu=0x5 idApic=0x3 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=1607998354(*) cErrors=0
+00:00:01.488213 TM: GIP - CPU: iCpuSet=0x6 idCpu=0x6 idApic=0x5 iGipCpu=0x2 i64TSCDelta=0 enmState=3 u64CpuHz=1607997919(*) cErrors=0
+00:00:01.488216 TM: GIP - CPU: iCpuSet=0x7 idCpu=0x7 idApic=0x7 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=1607972773(*) cErrors=0
+00:00:01.488283 TM: cTSCTicksPerSecond=1 607 972 773 (0x5fd7b7a5) enmTSCMode=1 (VirtTscEmulated)
+00:00:01.488285 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:01.488756 EMR3Init: fIemExecutesAll=false fGuruOnTripleFault=true 
+00:00:01.489483 IEM: TargetCpu=CURRENT, Microarch=Intel_Core7_CoffeeLake
+00:00:01.489605 GIM: Using provider 'KVM' (Implementation version: 0)
+00:00:01.489614 CPUM: SetGuestCpuIdFeature: Enabled Hypervisor Present bit
+00:00:01.510952 AIOMgr: Default manager type is 'Async'
+00:00:01.510974 AIOMgr: Default file backend is 'NonBuffered'
+00:00:01.511195 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:01.511214 BlkCache: Cache commit interval is 10000 ms
+00:00:01.511217 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:01.514476 PcBios: [SMP] BIOS with 4 CPUs
+00:00:01.514504 PcBios: Using the 386+ BIOS image.
+00:00:01.514559 PcBios: MPS table at 000e1300
+00:00:01.514771 PcBios: fCheckShutdownStatusForSoftReset=true   fClearShutdownStatusOnHardReset=true 
+00:00:01.514894 SUP: Opened VBoxDDR0.r0 (/usr/lib64/virtualbox/VBoxDDR0.r0) at 0xXXXXXXXXXXXXXXXX.
+00:00:01.515045 CPUM: SetGuestCpuIdFeature: Enabled xAPIC
+00:00:01.515051 CPUM: SetGuestCpuIdFeature: Enabled x2APIC
+00:00:01.515277 IOAPIC: Using implementation 2.0! Chipset type ICH9
+00:00:01.515320 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:01.515446 VMMDev: cbDefaultBudget: 127 993 152 (7a10540)
+00:00:01.516963 Shared Folders service loaded
+00:00:01.517486 Guest Control service loaded
+00:00:01.520663 VGA: Using the 386+ BIOS image.
+00:00:01.521357 DrvVD: Flushes will be ignored
+00:00:01.521373 DrvVD: Async flushes will be passed to the disk
+00:00:01.524981 VD: VDInit finished with VINF_SUCCESS
+00:00:01.525479 AIOMgr: Endpoint for file '/home/PPK.EDU/ol21/VM_discs/HQ-SRV.vdi' (flags 000c0723) created successfully
+00:00:01.526402 VD: Opening the disk took 1666912 ns
+00:00:01.526509 AHCI: LUN#0: disk, PCHS=16383/16/63, total number of sectors 41943040
+00:00:01.526666 AHCI: Port1: No driver attached
+00:00:01.526677 AHCI: Port2: No driver attached
+00:00:01.526681 AHCI: Port3: No driver attached
+00:00:01.526687 AHCI: Port4: No driver attached
+00:00:01.526691 AHCI: Port5: No driver attached
+00:00:01.526694 AHCI: Port6: No driver attached
+00:00:01.526699 AHCI: Port7: No driver attached
+00:00:01.526703 AHCI: Port8: No driver attached
+00:00:01.526707 AHCI: Port9: No driver attached
+00:00:01.526712 AHCI: Port10: No driver attached
+00:00:01.526717 AHCI: Port11: No driver attached
+00:00:01.526722 AHCI: Port12: No driver attached
+00:00:01.526726 AHCI: Port13: No driver attached
+00:00:01.526731 AHCI: Port14: No driver attached
+00:00:01.526737 AHCI: Port15: No driver attached
+00:00:01.526741 AHCI: Port16: No driver attached
+00:00:01.526745 AHCI: Port17: No driver attached
+00:00:01.526755 AHCI: Port18: No driver attached
+00:00:01.526771 AHCI: Port19: No driver attached
+00:00:01.526784 AHCI: Port20: No driver attached
+00:00:01.526789 AHCI: Port21: No driver attached
+00:00:01.526792 AHCI: Port22: No driver attached
+00:00:01.526798 AHCI: Port23: No driver attached
+00:00:01.526802 AHCI: Port24: No driver attached
+00:00:01.526806 AHCI: Port25: No driver attached
+00:00:01.526812 AHCI: Port26: No driver attached
+00:00:01.526816 AHCI: Port27: No driver attached
+00:00:01.526820 AHCI: Port28: No driver attached
+00:00:01.526824 AHCI: Port29: No driver attached
+00:00:01.526859 AHCI#0: Reset the HBA
+00:00:01.526865 VD#0: Cancelling all active requests
+00:00:01.527489 DrvVD: Flushes will be ignored
+00:00:01.527506 DrvVD: Async flushes will be passed to the disk
+00:00:01.527552 VD: Opening the disk took 38590 ns
+00:00:01.527577 PIIX3 ATA: LUN#0: CD/DVD, total number of sectors 2537059, passthrough disabled
+00:00:01.528904 PIIX3 ATA: LUN#1: no unit
+00:00:01.528931 PIIX3 ATA: LUN#2: no unit
+00:00:01.528931 PIIX3 ATA: LUN#3: no unit
+00:00:01.528931 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:01.528931 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:01.528931 E1000#0: Chip=82540EM LinkUpDelay=3000ms EthernetCRC=on GSO=enabled Itr=disabled ItrRx=enabled TID=disabled R0=enabled RC=disabled
+00:00:01.528931 IntNet#0: szNetwork={HQ-SRV-HQ-R} enmTrunkType=2 szTrunk={} fFlags=0x8000 cbRecv=325632 cbSend=196608 fIgnoreConnectFailure=false
+00:00:01.528931 AC97: Using codec 'STAC9700'
+00:00:01.528931 Audio: Initializing PulseAudio driver
+00:00:01.540329 PulseAudio: Using version 17.0.0
+00:00:01.542449 PulseAudio: Retrieving server information ...
+00:00:01.543310 Audio: Found 9 devices for driver 'PulseAudio'
+00:00:01.543323 Audio: Device 'Comet Lake PCH-LP cAVS HDMI / DisplayPort 3 Output':
+00:00:01.543323 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__HDMI3__sink
+00:00:01.543324 Audio:   Usage           = output
+00:00:01.543324 Audio:   Flags           = NONE
+00:00:01.543325 Audio:   Input channels  = 0
+00:00:01.543325 Audio:   Output channels = 2
+00:00:01.543338 Audio: Device 'Comet Lake PCH-LP cAVS HDMI / DisplayPort 2 Output':
+00:00:01.543339 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__HDMI2__sink
+00:00:01.543339 Audio:   Usage           = output
+00:00:01.543339 Audio:   Flags           = NONE
+00:00:01.543340 Audio:   Input channels  = 0
+00:00:01.543340 Audio:   Output channels = 2
+00:00:01.543357 Audio: Device 'Comet Lake PCH-LP cAVS HDMI / DisplayPort 1 Output':
+00:00:01.543358 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__HDMI1__sink
+00:00:01.543358 Audio:   Usage           = output
+00:00:01.543358 Audio:   Flags           = NONE
+00:00:01.543359 Audio:   Input channels  = 0
+00:00:01.543359 Audio:   Output channels = 2
+00:00:01.543361 Audio: Device 'Comet Lake PCH-LP cAVS Speakers':
+00:00:01.543362 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__Speaker__sink
+00:00:01.543362 Audio:   Usage           = output
+00:00:01.543362 Audio:   Flags           = DEFAULT_OUT
+00:00:01.543363 Audio:   Input channels  = 0
+00:00:01.543363 Audio:   Output channels = 2
+00:00:01.543365 Audio: Device 'Monitor of Comet Lake PCH-LP cAVS HDMI / DisplayPort 3 Output':
+00:00:01.543365 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__HDMI3__sink.monitor
+00:00:01.543366 Audio:   Usage           = input
+00:00:01.543366 Audio:   Flags           = NONE
+00:00:01.543366 Audio:   Input channels  = 2
+00:00:01.543367 Audio:   Output channels = 0
+00:00:01.543369 Audio: Device 'Monitor of Comet Lake PCH-LP cAVS HDMI / DisplayPort 2 Output':
+00:00:01.543369 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__HDMI2__sink.monitor
+00:00:01.543369 Audio:   Usage           = input
+00:00:01.543370 Audio:   Flags           = NONE
+00:00:01.543370 Audio:   Input channels  = 2
+00:00:01.543370 Audio:   Output channels = 0
+00:00:01.543372 Audio: Device 'Monitor of Comet Lake PCH-LP cAVS HDMI / DisplayPort 1 Output':
+00:00:01.543373 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__HDMI1__sink.monitor
+00:00:01.543373 Audio:   Usage           = input
+00:00:01.543373 Audio:   Flags           = NONE
+00:00:01.543373 Audio:   Input channels  = 2
+00:00:01.543374 Audio:   Output channels = 0
+00:00:01.543376 Audio: Device 'Monitor of Comet Lake PCH-LP cAVS Speakers':
+00:00:01.543376 Audio:   ID              = alsa_output.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__Speaker__sink.monitor
+00:00:01.543376 Audio:   Usage           = input
+00:00:01.543377 Audio:   Flags           = NONE
+00:00:01.543377 Audio:   Input channels  = 2
+00:00:01.543377 Audio:   Output channels = 0
+00:00:01.543379 Audio: Device 'Comet Lake PCH-LP cAVS Analog Microphone':
+00:00:01.543380 Audio:   ID              = alsa_input.pci-0000_00_1f.3-platform-sof-essx8336.HiFi__Mic__source
+00:00:01.543380 Audio:   Usage           = input
+00:00:01.543380 Audio:   Flags           = DEFAULT_IN
+00:00:01.543380 Audio:   Input channels  = 2
+00:00:01.543381 Audio:   Output channels = 0
+00:00:01.543479 AC97: Reset
+00:00:01.543483 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:00:01.543486 AC97: Record select to left=mic, right=mic
+00:00:01.544002 PGM: The CPU physical address width is 39 bits
+00:00:01.544010 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000007fffffffff -> VINF_SUCCESS
+00:00:01.544027 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=true 
+00:00:01.544155 VMM: Enabled thread-context hooks
+00:00:01.544160 VMM: RTThreadPreemptIsPending() can be trusted
+00:00:01.544162 VMM: Kernel preemption is possible
+00:00:01.544269 HM: fWorldSwitcher=0x0 (fIbpbOnVmExit=false fIbpbOnVmEntry=false fL1dFlushOnVmEntry=false); fL1dFlushOnSched=true  fMdsClearOnVmEntry=false
+00:00:01.544273 HM: Using VT-x implementation 3.0
+00:00:01.544274 HM: Max resume loops                  = 8192
+00:00:01.544274 HM: Host CR4                          = 0x3706f0
+00:00:01.544275 HM: Host EFER                         = 0xd01
+00:00:01.544276 HM: MSR_IA32_SMM_MONITOR_CTL          = 0x0
+00:00:01.544276 HM: MSR_IA32_FEATURE_CONTROL          = 0x5
+00:00:01.544277 HM:   LOCK
+00:00:01.544277 HM:   VMXON
+00:00:01.544277 HM: MSR_IA32_VMX_BASIC                = 0xda040000000004
+00:00:01.544278 HM:   VMCS id                           = 0x4
+00:00:01.544278 HM:   VMCS size                         = 1024 bytes
+00:00:01.544279 HM:   VMCS physical address limit       = None
+00:00:01.544279 HM:   VMCS memory type                  = Write Back (WB)
+00:00:01.544280 HM:   Dual-monitor treatment support    = true 
+00:00:01.544280 HM:   OUTS & INS instruction-info       = true 
+00:00:01.544281 HM:   Supports true-capability MSRs     = true 
+00:00:01.544281 HM:   VM-entry Xcpt error-code optional = false
+00:00:01.544282 HM: MSR_IA32_VMX_PINBASED_CTLS        = 0x7f00000016
+00:00:01.544282 HM:   EXT_INT_EXIT
+00:00:01.544283 HM:   NMI_EXIT
+00:00:01.544283 HM:   VIRTUAL_NMI
+00:00:01.544296 HM:   PREEMPT_TIMER
+00:00:01.544297 HM:   POSTED_INT (must be cleared)
+00:00:01.544297 HM: MSR_IA32_VMX_PROCBASED_CTLS       = 0xfff9fffe0401e172
+00:00:01.544298 HM:   INT_WINDOW_EXIT
+00:00:01.544298 HM:   USE_TSC_OFFSETTING
+00:00:01.544298 HM:   HLT_EXIT
+00:00:01.544299 HM:   INVLPG_EXIT
+00:00:01.544299 HM:   MWAIT_EXIT
+00:00:01.544299 HM:   RDPMC_EXIT
+00:00:01.544300 HM:   RDTSC_EXIT
+00:00:01.544300 HM:   CR3_LOAD_EXIT (must be set)
+00:00:01.544300 HM:   CR3_STORE_EXIT (must be set)
+00:00:01.544300 HM:   CR8_LOAD_EXIT
+00:00:01.544301 HM:   CR8_STORE_EXIT
+00:00:01.544301 HM:   USE_TPR_SHADOW
+00:00:01.544301 HM:   NMI_WINDOW_EXIT
+00:00:01.544301 HM:   MOV_DR_EXIT
+00:00:01.544302 HM:   UNCOND_IO_EXIT
+00:00:01.544302 HM:   USE_IO_BITMAPS
+00:00:01.544302 HM:   MONITOR_TRAP_FLAG
+00:00:01.544302 HM:   USE_MSR_BITMAPS
+00:00:01.544303 HM:   MONITOR_EXIT
+00:00:01.544303 HM:   PAUSE_EXIT
+00:00:01.544303 HM:   USE_SECONDARY_CTLS
+00:00:01.544304 HM: MSR_IA32_VMX_PROCBASED_CTLS2      = 0x5fbcff00000000
+00:00:01.544304 HM:   VIRT_APIC_ACCESS
+00:00:01.544305 HM:   EPT
+00:00:01.544305 HM:   DESC_TABLE_EXIT
+00:00:01.544305 HM:   RDTSCP
+00:00:01.544305 HM:   VIRT_X2APIC_MODE
+00:00:01.544306 HM:   VPID
+00:00:01.544306 HM:   WBINVD_EXIT
+00:00:01.544306 HM:   UNRESTRICTED_GUEST
+00:00:01.544307 HM:   APIC_REG_VIRT (must be cleared)
+00:00:01.544307 HM:   VIRT_INT_DELIVERY (must be cleared)
+00:00:01.544307 HM:   PAUSE_LOOP_EXIT
+00:00:01.544307 HM:   RDRAND_EXIT
+00:00:01.544308 HM:   INVPCID
+00:00:01.544308 HM:   VMFUNC
+00:00:01.544308 HM:   VMCS_SHADOWING (must be cleared)
+00:00:01.544308 HM:   ENCLS_EXIT
+00:00:01.544309 HM:   RDSEED_EXIT
+00:00:01.544309 HM:   PML
+00:00:01.544309 HM:   EPT_VE
+00:00:01.544310 HM:   CONCEAL_VMX_FROM_PT
+00:00:01.544310 HM:   XSAVES_XRSTORS
+00:00:01.544310 HM:   MODE_BASED_EPT_PERM
+00:00:01.544310 HM:   SPPTP_EPT (must be cleared)
+00:00:01.544311 HM:   PT_EPT (must be cleared)
+00:00:01.544311 HM:   TSC_SCALING (must be cleared)
+00:00:01.544311 HM:   USER_WAIT_PAUSE (must be cleared)
+00:00:01.544312 HM:   ENCLV_EXIT (must be cleared)
+00:00:01.544312 HM: MSR_IA32_VMX_ENTRY_CTLS           = 0x3ffff000011ff
+00:00:01.544313 HM:   LOAD_DEBUG (must be set)
+00:00:01.544313 HM:   IA32E_MODE_GUEST
+00:00:01.544313 HM:   ENTRY_TO_SMM
+00:00:01.544313 HM:   DEACTIVATE_DUAL_MON
+00:00:01.544314 HM:   LOAD_PERF_MSR
+00:00:01.544314 HM:   LOAD_PAT_MSR
+00:00:01.544314 HM:   LOAD_EFER_MSR
+00:00:01.544314 HM:   LOAD_BNDCFGS_MSR
+00:00:01.544315 HM:   CONCEAL_VMX_FROM_PT
+00:00:01.544315 HM:   LOAD_RTIT_CTL_MSR (must be cleared)
+00:00:01.544315 HM: MSR_IA32_VMX_EXIT_CTLS            = 0x1ffffff00036dff
+00:00:01.544316 HM:   SAVE_DEBUG (must be set)
+00:00:01.544316 HM:   HOST_ADDR_SPACE_SIZE
+00:00:01.544317 HM:   LOAD_PERF_MSR
+00:00:01.544317 HM:   ACK_EXT_INT
+00:00:01.544317 HM:   SAVE_PAT_MSR
+00:00:01.544317 HM:   LOAD_PAT_MSR
+00:00:01.544318 HM:   SAVE_EFER_MSR
+00:00:01.544318 HM:   LOAD_EFER_MSR
+00:00:01.544318 HM:   SAVE_PREEMPT_TIMER
+00:00:01.544319 HM:   CLEAR_BNDCFGS_MSR
+00:00:01.544319 HM:   CONCEAL_VMX_FROM_PT
+00:00:01.544319 HM:   CLEAR_RTIT_CTL_MSR (must be cleared)
+00:00:01.544319 HM: MSR_IA32_VMX_TRUE_PINBASED_CTLS   = 0x7f00000016
+00:00:01.544320 HM: MSR_IA32_VMX_TRUE_PROCBASED_CTLS  = 0xfff9fffe04006172
+00:00:01.544321 HM: MSR_IA32_VMX_TRUE_ENTRY_CTLS      = 0x3ffff000011fb
+00:00:01.544321 HM: MSR_IA32_VMX_TRUE_EXIT_CTLS       = 0x1ffffff00036dfb
+00:00:01.544322 HM: MSR_IA32_VMX_MISC                 = 0x7004c1e7
+00:00:01.544323 HM:   PREEMPT_TIMER_TSC                 = 0x7
+00:00:01.544323 HM:   EXIT_SAVE_EFER_LMA                = true 
+00:00:01.544324 HM:   ACTIVITY_STATES                   = 0x7 ( HLT SHUTDOWN SIPI_WAIT )
+00:00:01.544324 HM:   INTEL_PT                          = true 
+00:00:01.544324 HM:   SMM_READ_SMBASE_MSR               = true 
+00:00:01.544325 HM:   CR3_TARGET                        = 0x4
+00:00:01.544325 HM:   MAX_MSR                           = 0x0 ( 512 )
+00:00:01.544326 HM:   VMXOFF_BLOCK_SMI                  = true 
+00:00:01.544326 HM:   VMWRITE_ALL                       = true 
+00:00:01.544327 HM:   ENTRY_INJECT_SOFT_INT             = 0x1
+00:00:01.544327 HM:   MSEG_ID                           = 0x0
+00:00:01.544327 HM: MSR_IA32_VMX_VMCS_ENUM            = 0x2e
+00:00:01.544328 HM:   HIGHEST_IDX                       = 0x17
+00:00:01.544328 HM: MSR_IA32_VMX_EPT_VPID_CAP         = 0xf0106734141
+00:00:01.544329 HM:   RWX_X_ONLY
+00:00:01.544329 HM:   PAGE_WALK_LENGTH_4
+00:00:01.544329 HM:   EMT_UC
+00:00:01.544329 HM:   EMT_WB
+00:00:01.544330 HM:   PDE_2M
+00:00:01.544330 HM:   PDPTE_1G
+00:00:01.544330 HM:   INVEPT
+00:00:01.544331 HM:   EPT_ACCESS_DIRTY
+00:00:01.544331 HM:   ADVEXITINFO_EPT
+00:00:01.544331 HM:   INVEPT_SINGLE_CONTEXT
+00:00:01.544331 HM:   INVEPT_ALL_CONTEXTS
+00:00:01.544332 HM:   INVVPID
+00:00:01.544332 HM:   INVVPID_INDIV_ADDR
+00:00:01.544332 HM:   INVVPID_SINGLE_CONTEXT
+00:00:01.544332 HM:   INVVPID_ALL_CONTEXTS
+00:00:01.544333 HM:   INVVPID_SINGLE_CONTEXT_RETAIN_GLOBALS
+00:00:01.544333 HM: MSR_IA32_VMX_VMFUNC               = 0x1
+00:00:01.544333 HM:   EPTP_SWITCHING
+00:00:01.544334 HM: MSR_IA32_VMX_CR0_FIXED0           = 0x80000021
+00:00:01.544334 HM: MSR_IA32_VMX_CR0_FIXED1           = 0xffffffff
+00:00:01.544335 HM: MSR_IA32_VMX_CR4_FIXED0           = 0x2000
+00:00:01.544335 HM: MSR_IA32_VMX_CR4_FIXED1           = 0x3727ff
+00:00:01.544336 HM: APIC-access page physaddr         = 0x0000000248c92000
+00:00:01.544337 HM: VCPU  0: MSR bitmap physaddr      = 0x000000021f238000
+00:00:01.544338 HM: VCPU  0: VMCS physaddr            = 0x0000000248c93000
+00:00:01.544338 HM: VCPU  1: MSR bitmap physaddr      = 0x000000021feb2000
+00:00:01.544339 HM: VCPU  1: VMCS physaddr            = 0x000000021f239000
+00:00:01.544339 HM: VCPU  2: MSR bitmap physaddr      = 0x000000024fc26000
+00:00:01.544340 HM: VCPU  2: VMCS physaddr            = 0x000000021feb3000
+00:00:01.544340 HM: VCPU  3: MSR bitmap physaddr      = 0x0000000247676000
+00:00:01.544341 HM: VCPU  3: VMCS physaddr            = 0x000000024fc27000
+00:00:01.544342 HM: Guest support: 32-bit and 64-bit
+00:00:01.544345 HM: Supports VMCS EFER fields         = true 
+00:00:01.544346 HM: Enabled VMX
+00:00:01.544348 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:01.544349 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:01.544349 CPUM: SetGuestCpuIdFeature: Enabled LONG MODE
+00:00:01.544350 CPUM: SetGuestCpuIdFeature: Enabled SYSCALL/RET
+00:00:01.544350 CPUM: SetGuestCpuIdFeature: Enabled LAHF/SAHF
+00:00:01.544351 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:01.544351 HM: Enabled nested paging
+00:00:01.544351 HM:   EPT flush type                  = Single context
+00:00:01.544352 HM: Enabled unrestricted guest execution
+00:00:01.544352 HM: Enabled VPID
+00:00:01.544352 HM:   VPID flush type                 = Single context
+00:00:01.544352 HM: Enabled VMX-preemption timer (cPreemptTimerShift=7)
+00:00:01.544353 HM: VT-x/AMD-V init method: Global
+00:00:01.544354 EM: Exit history optimizations: enabled=true  enabled-r0=true  enabled-r0-no-preemption=false
+00:00:01.544374 PcBios: SATA LUN#0 LCHS=1024/255/63
+00:00:01.544388 APIC: fPostedIntrsEnabled=false fVirtApicRegsEnabled=false fSupportsTscDeadline=false
+00:00:01.544393 TMR3UtcNow: nsNow=1 725 604 293 632 552 000 nsPrev=0 -> cNsDelta=1 725 604 293 632 552 000 (offLag=0 offVirtualSync=0 offVirtualSyncGivenUp=0, NowAgain=1 725 604 293 632 553 000)
+00:00:01.544403 VMM: fUsePeriodicPreemptionTimers=false
+00:00:01.544507 CPUM: Logical host processors: 8 present, 8 max, 8 online, online mask: 00000000000000ff
+00:00:01.544579 CPUM: Physical host cores: 4
+00:00:01.544580 ************************* CPUID dump ************************
+00:00:01.544587          Raw Standard CPUID Leaves
+00:00:01.544587      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:01.544588 Gst: 00000000/0000  00000016 756e6547 6c65746e 49656e69
+00:00:01.544589 Hst:                00000016 756e6547 6c65746e 49656e69
+00:00:01.544590 Gst: 00000001/0000  000806ec 00040800 d6fa2203 178bfbff
+00:00:01.544591 Hst:                000806ec 03100800 7ffafbbf bfebfbff
+00:00:01.544592 Gst: 00000002/0000  76036301 00f0b5ff 00000000 00c30000
+00:00:01.544593 Hst:                76036301 00f0b5ff 00000000 00c30000
+00:00:01.544594 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:01.544594 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544595 Gst: 00000004/0000  0c000121 01c0003f 0000003f 00000000
+00:00:01.544596 Hst:                1c004121 01c0003f 0000003f 00000000
+00:00:01.544596 Gst: 00000004/0001  0c000122 01c0003f 0000003f 00000000
+00:00:01.544597 Hst:                1c004122 01c0003f 0000003f 00000000
+00:00:01.544598 Gst: 00000004/0002  0c000143 00c0003f 000003ff 00000000
+00:00:01.544598 Hst:                1c004143 00c0003f 000003ff 00000000
+00:00:01.544599 Gst: 00000004/0003  0c000163 02c0003f 00001fff 00000006
+00:00:01.544600 Hst:                1c03c163 02c0003f 00001fff 00000006
+00:00:01.544600 Gst: 00000004/0004  0c000000 00000000 00000000 00000000
+00:00:01.544601 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544601 Gst: 00000005/0000  00000000 00000000 00000000 00000000
+00:00:01.544602 Hst:                00000040 00000040 00000003 11142120
+00:00:01.544603 Gst: 00000006/0000  00000000 00000000 00000000 00000000
+00:00:01.544604 Hst:                000027f7 00000002 00000009 00000000
+00:00:01.544604 Gst: 00000007/0000  00000000 00842421 00000000 30000400
+00:00:01.544605 Hst:                00000000 029c67af 00000000 bc000600
+00:00:01.544606 Gst: 00000007/0001  00000000 00000000 00000000 00000000
+00:00:01.544606 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544607 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:01.544607 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544608 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:01.544608 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544609 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:01.544609 Hst:                07300404 00000000 00000000 00000603
+00:00:01.544610 Gst: 0000000b/0000  00000000 00000001 00000100 00000000
+00:00:01.544611 Hst:                00000001 00000002 00000100 00000003
+00:00:01.544611 Gst: 0000000b/0001  00000002 00000004 00000201 00000000
+00:00:01.544612 Hst:                00000004 00000008 00000201 00000003
+00:00:01.544612 Gst: 0000000b/0002  00000000 00000000 00000002 00000000
+00:00:01.544613 Hst:                00000000 00000000 00000002 00000003
+00:00:01.544613 Gst: 0000000c/0000  00000000 00000000 00000000 00000000
+00:00:01.544614 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544614 Gst: 0000000d/0000  00000007 00000340 00000340 00000000
+00:00:01.544615 Hst:                0000001f 00000440 00000440 00000000
+00:00:01.544616 Gst: 0000000d/0001  00000000 000003c0 00000000 00000000
+00:00:01.544616 Hst:                0000000f 000003c0 00000100 00000000
+00:00:01.544617 Gst: 0000000d/0002  00000100 00000240 00000000 00000000
+00:00:01.544617 Hst:                00000100 00000240 00000000 00000000
+00:00:01.544618 Gst: 0000000d/0003  00000000 00000000 00000000 00000000
+00:00:01.544619 Hst:                00000040 000003c0 00000000 00000000
+00:00:01.544619 Gst: 0000000d/0004  00000000 00000000 00000000 00000000
+00:00:01.544620 Hst:                00000040 00000400 00000000 00000000
+00:00:01.544620 Gst: 0000000d/0005  00000000 00000000 00000000 00000000
+00:00:01.544621 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544621 Gst: 0000000d/0006  00000000 00000000 00000000 00000000
+00:00:01.544622 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544622 Gst: 0000000d/0007  00000000 00000000 00000000 00000000
+00:00:01.544623 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544624 Gst: 0000000d/0008  00000000 00000000 00000000 00000000
+00:00:01.544624 Hst:                00000080 00000000 00000001 00000000
+00:00:01.544625 Gst: 0000000d/0009  00000000 00000000 00000000 00000000
+00:00:01.544625 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544643 Gst: 0000000e/0000  00000000 00000000 00000000 00000000
+00:00:01.544643 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544644 Gst: 0000000f/0000  00000000 00000000 00000000 00000000
+00:00:01.544644 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544645 Gst: 00000010/0000  00000000 00000000 00000000 00000000
+00:00:01.544646 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544646 Gst: 00000011/0000  00000000 00000000 00000000 00000000
+00:00:01.544647 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544647 Gst: 00000012/0000  00000000 00000000 00000000 00000000
+00:00:01.544648 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544648 Gst: 00000013/0000  00000000 00000000 00000000 00000000
+00:00:01.544649 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544649 Gst: 00000014/0000  00000000 00000000 00000000 00000000
+00:00:01.544650 Hst:                00000001 0000000f 00000007 00000000
+00:00:01.544651 Hst: 00000015/0000  00000002 00000086 00000000 00000000
+00:00:01.544652 Hst: 00000016/0000  00000640 00001068 00000064 00000000
+00:00:01.544652                                Name: GenuineIntel
+00:00:01.544653                            Supports: 0x00000000-0x00000016
+00:00:01.544654                              Family:  6 	Extended: 0 	Effective: 6
+00:00:01.544655                               Model: 14 	Extended: 8 	Effective: 142
+00:00:01.544656                            Stepping: 12
+00:00:01.544657                                Type: 0 (primary)
+00:00:01.544658                             APIC ID: 0x00
+00:00:01.544659                        Logical CPUs: 4
+00:00:01.544659                        CLFLUSH Size: 8
+00:00:01.544660                            Brand ID: 0x00
+00:00:01.544661 Features
+00:00:01.544661   Mnemonic - Description                                  = guest (host)
+00:00:01.544662   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:01.544663   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:01.544664   DE - Debugging extensions                               = 1 (1)
+00:00:01.544665   PSE - Page Size Extension                               = 1 (1)
+00:00:01.544665   TSC - Time Stamp Counter                                = 1 (1)
+00:00:01.544666   MSR - Model Specific Registers                          = 1 (1)
+00:00:01.544667   PAE - Physical Address Extension                        = 1 (1)
+00:00:01.544668   MCE - Machine Check Exception                           = 1 (1)
+00:00:01.544668   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:01.544669   APIC - APIC On-Chip                                     = 1 (1)
+00:00:01.544670   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:01.544671   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:01.544672   PGE - PTE Global Bit                                    = 1 (1)
+00:00:01.544673   MCA - Machine Check Architecture                        = 1 (1)
+00:00:01.544673   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:01.544674   PAT - Page Attribute Table                              = 1 (1)
+00:00:01.544675   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:01.544676   PSN - Processor Serial Number                           = 0 (0)
+00:00:01.544676   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:01.544677   DS - Debug Store                                        = 0 (1)
+00:00:01.544678   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:01.544679   MMX - Intel MMX Technology                              = 1 (1)
+00:00:01.544680   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:01.544680   SSE - SSE support                                       = 1 (1)
+00:00:01.544681   SSE2 - SSE2 support                                     = 1 (1)
+00:00:01.544682   SS - Self Snoop                                         = 0 (1)
+00:00:01.544683   HTT - Hyper-Threading Technology                        = 1 (1)
+00:00:01.544684   TM - Therm. Monitor                                     = 0 (1)
+00:00:01.544685   PBE - Pending Break Enabled                             = 0 (1)
+00:00:01.544686   SSE3 - SSE3 support                                     = 1 (1)
+00:00:01.544687   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 1 (1)
+00:00:01.544687   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:01.544688   MONITOR - MONITOR/MWAIT instructions                    = 0 (1)
+00:00:01.544689   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:01.544689   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:01.544690   SMX - Safer Mode Extensions                             = 0 (0)
+00:00:01.544691   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:01.544692   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:01.544693   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:01.544693   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:01.544694   SDBG - Silicon Debug interface                          = 0 (1)
+00:00:01.544695   FMA - Fused Multiply Add extensions                     = 0 (1)
+00:00:01.544696   CX16 - CMPXCHG16B instruction                           = 1 (1)
+00:00:01.544696   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:01.544697   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:01.544698   PCID - Process Context Identifiers                      = 1 (1)
+00:00:01.544699   DCA - Direct Cache Access                               = 0 (0)
+00:00:01.544699   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:01.544700   SSE4_2 - SSE4_2 support                                 = 1 (1)
+00:00:01.544701   X2APIC - x2APIC support                                 = 1 (1)
+00:00:01.544702   MOVBE - MOVBE instruction                               = 1 (1)
+00:00:01.544703   POPCNT - POPCNT instruction                             = 1 (1)
+00:00:01.544704   TSCDEADL - Time Stamp Counter Deadline                  = 0 (1)
+00:00:01.544704   AES - AES instructions                                  = 1 (1)
+00:00:01.544705   XSAVE - XSAVE instruction                               = 1 (1)
+00:00:01.544706   OSXSAVE - OSXSAVE instruction                           = 0 (1)
+00:00:01.544707   AVX - AVX support                                       = 1 (1)
+00:00:01.544708   F16C - 16-bit floating point conversion instructions    = 0 (1)
+00:00:01.544708   RDRAND - RDRAND instruction                             = 1 (1)
+00:00:01.544709   HVP - Hypervisor Present (we're a guest)                = 1 (0)
+00:00:01.544710 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:01.544710   Mnemonic - Description                                  = guest (host)
+00:00:01.544711   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 1 (1)
+00:00:01.544711   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (1)
+00:00:01.544712   SGX - Supports Software Guard Extensions                = 0 (1)
+00:00:01.544713   BMI1 - Advanced Bit Manipulation extension 1            = 0 (1)
+00:00:01.544713   HLE - Hardware Lock Elision                             = 0 (0)
+00:00:01.544714   AVX2 - Advanced Vector Extensions 2                     = 1 (1)
+00:00:01.544715   FDP_EXCPTN_ONLY - FPU DP only updated on exceptions     = 0 (0)
+00:00:01.544715   SMEP - Supervisor Mode Execution Prevention             = 0 (1)
+00:00:01.544716   BMI2 - Advanced Bit Manipulation extension 2            = 0 (1)
+00:00:01.544717   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (1)
+00:00:01.544717   INVPCID - INVPCID instruction                           = 1 (1)
+00:00:01.544718   RTM - Restricted Transactional Memory                   = 0 (0)
+00:00:01.544719   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:01.544719   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 1 (1)
+00:00:01.544720   MPE - Intel Memory Protection Extensions                = 0 (1)
+00:00:01.544721   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:01.544721   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:01.544722   RDSEED - RDSEED instruction                             = 1 (1)
+00:00:01.544723   ADX - ADCX/ADOX instructions                            = 0 (1)
+00:00:01.544723   SMAP - Supervisor Mode Access Prevention                = 0 (1)
+00:00:01.544724   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 1 (1)
+00:00:01.544725   INTEL_PT - Intel Processor Trace                        = 0 (1)
+00:00:01.544725   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:01.544726   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:01.544727   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:01.544727   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:01.544728   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:01.544729   UMIP - User mode insturction prevention                 = 0 (0)
+00:00:01.544729   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:01.544730   OSPKE - CR4.PKU mirror                                  = 0 (0)
+00:00:01.544731   MAWAU - Value used by BNDLDX & BNDSTX                   = 0x0 (0x0)
+00:00:01.544732   RDPID - Read processor ID support                       = 0 (0)
+00:00:01.544733   SGX_LC - Supports SGX Launch Configuration              = 0 (0)
+00:00:01.544734    9 - Reserved                                           = 0 (1)
+00:00:01.544735   MD_CLEAR - Supports MDS related buffer clearing         = 1 (1)
+00:00:01.544735   IBRS_IBPB - IA32_SPEC_CTRL.IBRS and IA32_PRED_CMD.IBPB  = 0 (1)
+00:00:01.544736   STIBP - Supports IA32_SPEC_CTRL.STIBP                   = 0 (1)
+00:00:01.544737   FLUSH_CMD - Supports IA32_FLUSH_CMD                     = 1 (1)
+00:00:01.544737   ARCHCAP - Supports IA32_ARCH_CAP                        = 1 (1)
+00:00:01.544738   CORECAP - Supports IA32_CORE_CAP                        = 0 (0)
+00:00:01.544739   SSBD - Supports IA32_SPEC_CTRL.SSBD                     = 0 (1)
+00:00:01.544740 Processor Extended State Enumeration (leaf 0xd):
+00:00:01.544740    XSAVE area cur/max size by XCR0, guest: 0x340/0x340
+00:00:01.544741     XSAVE area cur/max size by XCR0, host: 0x440/0x440
+00:00:01.544742                    Valid XCR0 bits, guest: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:01.544743                     Valid XCR0 bits, host: 0x00000000`0000001f ( x87 SSE YMM_Hi128 BNDREGS BNDCSR )
+00:00:01.544745                     XSAVE features, guest:
+00:00:01.544746                      XSAVE features, host: XSAVEOPT XSAVEC XGETBC1 XSAVES
+00:00:01.544747       XSAVE area cur size XCR0|XSS, guest: 0x3c0
+00:00:01.544747        XSAVE area cur size XCR0|XSS, host: 0x3c0
+00:00:01.544748                Valid IA32_XSS bits, guest: 0x00000000`00000000
+00:00:01.544749                 Valid IA32_XSS bits, host: 0x00000100`00000000 ( 40 )
+00:00:01.544750   State #2, guest: off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:01.544751   State #2, host:  off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:01.544752   State #3, host:  off=0x03c0, cb=0x0040 IA32_XSS-bit -- BNDREGS
+00:00:01.544753   State #4, host:  off=0x0400, cb=0x0040 IA32_XSS-bit -- BNDCSR
+00:00:01.544754   State #8, host:  off=0x0000, cb=0x0080 XCR0-bit -- 8
+00:00:01.544763          Unknown CPUID Leaves
+00:00:01.544763      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:01.544764 Gst: 00000014/0001  00000000 00000000 00000000 00000000
+00:00:01.544765 Hst:                02490002 003f3fff 00000000 00000000
+00:00:01.544765 Gst: 00000014/0002  00000000 00000000 00000000 00000000
+00:00:01.544766 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544766 Gst: 00000015/0000  00000000 00000000 00000000 00000000
+00:00:01.544767 Hst:                00000002 00000086 00000000 00000000
+00:00:01.544768 Gst: 00000016/0000  00000000 00000000 00000000 00000000
+00:00:01.544768 Hst:                00000640 00001068 00000064 00000000
+00:00:01.544769          Raw Hypervisor CPUID Leaves
+00:00:01.544770      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:01.544770 Gst: 40000000/0000  40000001 4b4d564b 564b4d56 0000004d
+00:00:01.544771 Hst:                00000640 00001068 00000064 00000000
+00:00:01.544772 Gst: 40000001/0000  01000089 00000000 00000000 00000000
+00:00:01.544773 Hst:                00000640 00001068 00000064 00000000
+00:00:01.544774          Raw Extended CPUID Leaves
+00:00:01.544774      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:01.544774 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:01.544775 Hst:                80000008 00000000 00000000 00000000
+00:00:01.544775 Gst: 80000001/0000  00000000 00000000 00000121 28100800
+00:00:01.544776 Hst:                00000000 00000000 00000121 2c100800
+00:00:01.544777 Gst: 80000002/0000  65746e49 2952286c 726f4320 4d542865
+00:00:01.544778 Hst:                65746e49 2952286c 726f4320 4d542865
+00:00:01.544779 Gst: 80000003/0000  35692029 3230312d 20553031 20555043
+00:00:01.544780 Hst:                35692029 3230312d 20553031 20555043
+00:00:01.544781 Gst: 80000004/0000  2e312040 48473036 0000007a 00000000
+00:00:01.544782 Hst:                2e312040 48473036 0000007a 00000000
+00:00:01.544783 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:01.544783 Hst:                00000000 00000000 00000000 00000000
+00:00:01.544784 Gst: 80000006/0000  00000000 00000000 01006040 00000000
+00:00:01.544785 Hst:                00000000 00000000 01006040 00000000
+00:00:01.544785 Gst: 80000007/0000  00000000 00000000 00000000 00000100
+00:00:01.544786 Hst:                00000000 00000000 00000000 00000100
+00:00:01.544786 Gst: 80000008/0000  00003027 00000000 00000000 00000000
+00:00:01.544787 Hst:                00003027 00000000 00000000 00000000
+00:00:01.544788 Ext Name:                        
+00:00:01.544788 Ext Supports:                    0x80000000-0x80000008
+00:00:01.544789 Family:                          0  	Extended: 0 	Effective: 0
+00:00:01.544789 Model:                           0  	Extended: 0 	Effective: 0
+00:00:01.544790 Stepping:                        0
+00:00:01.544790 Brand ID:                        0x000
+00:00:01.544791 Ext Features
+00:00:01.544791   Mnemonic - Description                                  = guest (host)
+00:00:01.544791   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:01.544792   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:01.544793   DE - Debugging extensions                               = 0 (0)
+00:00:01.544794   PSE - Page Size Extension                               = 0 (0)
+00:00:01.544795   TSC - Time Stamp Counter                                = 0 (0)
+00:00:01.544796   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:01.544796   PAE - Physical Address Extension                        = 0 (0)
+00:00:01.544797   MCE - Machine Check Exception                           = 0 (0)
+00:00:01.544798   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:01.544799   APIC - APIC On-Chip                                     = 0 (0)
+00:00:01.544800   SEP - SYSCALL/SYSRET                                    = 1 (1)
+00:00:01.544800   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:01.544801   PGE - PTE Global Bit                                    = 0 (0)
+00:00:01.544802   MCA - Machine Check Architecture                        = 0 (0)
+00:00:01.544803   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:01.544803   PAT - Page Attribute Table                              = 0 (0)
+00:00:01.544804   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:01.544805   NX - No-Execute/Execute-Disable                         = 1 (1)
+00:00:01.544806   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:01.544806   MMX - Intel MMX Technology                              = 0 (0)
+00:00:01.544807   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:01.544808   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:01.544809   Page1GB - 1 GB large page                               = 0 (1)
+00:00:01.544809   RDTSCP - RDTSCP instruction                             = 1 (1)
+00:00:01.544810   LM - AMD64 Long Mode                                    = 1 (1)
+00:00:01.544811   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:01.544812   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:01.544813   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:01.544814   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:01.544814   SVM - AMD Secure Virtual Machine extensions             = 0 (0)
+00:00:01.544815   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:01.544816   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:01.544816   ABM - AMD Advanced Bit Manipulation                     = 1 (1)
+00:00:01.544817   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:01.544818   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:01.544818   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 1 (1)
+00:00:01.544819   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:01.544820   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:01.544820   XOP - Extended Operation support                        = 0 (0)
+00:00:01.544821   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:01.544822   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:01.544823   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:01.544823   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:01.544824   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:01.544825   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:01.544825   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:01.544826   PRFEXTCORE - Performance Counter Extensions support     = 0 (0)
+00:00:01.544827   PRFEXTNB - NB Performance Counter Extensions support    = 0 (0)
+00:00:01.544827   DATABPEXT - Data-access Breakpoint Extension            = 0 (0)
+00:00:01.544828   PERFTSC - Performance Time Stamp Counter                = 0 (0)
+00:00:01.544829   PCX_L2I - L2I/L3 Performance Counter Extensions         = 0 (0)
+00:00:01.544829   MWAITX - MWAITX and MONITORX instructions               = 0 (0)
+00:00:01.544830 Full Name:                       "Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz"
+00:00:01.544831 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:01.544831 TLB 2/4M Data:                   res0     0 entries
+00:00:01.544832 TLB 4K Instr/Uni:                res0     0 entries
+00:00:01.544832 TLB 4K Data:                     res0     0 entries
+00:00:01.544833 L1 Instr Cache Line Size:        0 bytes
+00:00:01.544833 L1 Instr Cache Lines Per Tag:    0
+00:00:01.544833 L1 Instr Cache Associativity:    res0  
+00:00:01.544834 L1 Instr Cache Size:             0 KB
+00:00:01.544834 L1 Data Cache Line Size:         0 bytes
+00:00:01.544834 L1 Data Cache Lines Per Tag:     0
+00:00:01.544835 L1 Data Cache Associativity:     res0  
+00:00:01.544835 L1 Data Cache Size:              0 KB
+00:00:01.544835 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:01.544836 L2 TLB 2/4M Data:                off       0 entries
+00:00:01.544836 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:01.544837 L2 TLB 4K Data:                  off       0 entries
+00:00:01.544837 L2 Cache Line Size:              0 bytes
+00:00:01.544837 L2 Cache Lines Per Tag:          0
+00:00:01.544838 L2 Cache Associativity:          off   
+00:00:01.544838 L2 Cache Size:                   0 KB
+00:00:01.544839   TS - Temperature Sensor                                 = 0 (0)
+00:00:01.544839   FID - Frequency ID control                              = 0 (0)
+00:00:01.544840   VID - Voltage ID control                                = 0 (0)
+00:00:01.544841   TscInvariant - Invariant Time Stamp Counter             = 1 (1)
+00:00:01.544842   CBP - Core Performance Boost                            = 0 (0)
+00:00:01.544843   EffFreqRO - Read-only Effective Frequency Interface     = 0 (0)
+00:00:01.544843   ProcFdbkIf - Processor Feedback Interface               = 0 (0)
+00:00:01.544844   ProcPwrRep - Core power reporting interface support     = 0 (0)
+00:00:01.544845 Physical Address Width:          39 bits
+00:00:01.544845 Virtual Address Width:           48 bits
+00:00:01.544845 Guest Physical Address Width:    0 bits
+00:00:01.544846 Physical Core Count:             1
+00:00:01.544847 
+00:00:01.544847 ******************** End of CPUID dump **********************
+00:00:01.544848 *********************** VT-x features ***********************
+00:00:01.544849 Nested hardware virtualization - VMX features
+00:00:01.544849   Mnemonic - Description                                  = guest (host)
+00:00:01.544849   VMX - Virtual-Machine Extensions                        = 0 (1)
+00:00:01.544850   InsOutInfo - INS/OUTS instruction info.                 = 0 (1)
+00:00:01.544850   ExtIntExit - External interrupt exiting                 = 0 (1)
+00:00:01.544851   NmiExit - NMI exiting                                   = 0 (1)
+00:00:01.544851   VirtNmi - Virtual NMIs                                  = 0 (1)
+00:00:01.544851   PreemptTimer - VMX preemption timer                     = 0 (1)
+00:00:01.544852   PostedInt - Posted interrupts                           = 0 (0)
+00:00:01.544852   IntWindowExit - Interrupt-window exiting                = 0 (1)
+00:00:01.544853   TscOffsetting - TSC offsetting                          = 0 (1)
+00:00:01.544853   HltExit - HLT exiting                                   = 0 (1)
+00:00:01.544853   InvlpgExit - INVLPG exiting                             = 0 (1)
+00:00:01.544854   MwaitExit - MWAIT exiting                               = 0 (1)
+00:00:01.544854   RdpmcExit - RDPMC exiting                               = 0 (1)
+00:00:01.544854   RdtscExit - RDTSC exiting                               = 0 (1)
+00:00:01.544855   Cr3LoadExit - CR3-load exiting                          = 0 (1)
+00:00:01.544855   Cr3StoreExit - CR3-store exiting                        = 0 (1)
+00:00:01.544856   Cr8LoadExit  - CR8-load exiting                         = 0 (1)
+00:00:01.544856   Cr8StoreExit - CR8-store exiting                        = 0 (1)
+00:00:01.544856   UseTprShadow - Use TPR shadow                           = 0 (1)
+00:00:01.544857   NmiWindowExit - NMI-window exiting                      = 0 (1)
+00:00:01.544857   MovDRxExit - Mov-DR exiting                             = 0 (1)
+00:00:01.544857   UncondIoExit - Unconditional I/O exiting                = 0 (1)
+00:00:01.544858   UseIoBitmaps - Use I/O bitmaps                          = 0 (1)
+00:00:01.544858   MonitorTrapFlag - Monitor Trap Flag                     = 0 (1)
+00:00:01.544859   UseMsrBitmaps - MSR bitmaps                             = 0 (1)
+00:00:01.544859   MonitorExit - MONITOR exiting                           = 0 (1)
+00:00:01.544859   PauseExit - PAUSE exiting                               = 0 (1)
+00:00:01.544860   SecondaryExecCtl - Activate secondary controls          = 0 (1)
+00:00:01.544860   VirtApic - Virtualize-APIC accesses                     = 0 (1)
+00:00:01.544861   Ept - Extended Page Tables                              = 0 (1)
+00:00:01.544861   DescTableExit - Descriptor-table exiting                = 0 (1)
+00:00:01.544861   Rdtscp - Enable RDTSCP                                  = 0 (1)
+00:00:01.544862   VirtX2ApicMode - Virtualize-x2APIC mode                 = 0 (1)
+00:00:01.544862   Vpid - Enable VPID                                      = 0 (1)
+00:00:01.544862   WbinvdExit - WBINVD exiting                             = 0 (1)
+00:00:01.544863   UnrestrictedGuest - Unrestricted guest                  = 0 (1)
+00:00:01.544863   ApicRegVirt - APIC-register virtualization              = 0 (0)
+00:00:01.544864   VirtIntDelivery - Virtual-interrupt delivery            = 0 (0)
+00:00:01.544864   PauseLoopExit - PAUSE-loop exiting                      = 0 (1)
+00:00:01.544864   RdrandExit - RDRAND exiting                             = 0 (1)
+00:00:01.544865   Invpcid - Enable INVPCID                                = 0 (1)
+00:00:01.544865   VmFuncs - Enable VM Functions                           = 0 (1)
+00:00:01.544865   VmcsShadowing - VMCS shadowing                          = 0 (0)
+00:00:01.544866   RdseedExiting - RDSEED exiting                          = 0 (1)
+00:00:01.544866   PML - Page-Modification Log (PML)                       = 0 (1)
+00:00:01.544867   EptVe - EPT violations can cause #VE                    = 0 (1)
+00:00:01.544867   XsavesXRstors - Enable XSAVES/XRSTORS                   = 0 (1)
+00:00:01.544867   EntryLoadDebugCtls - Load debug controls on VM-entry    = 0 (1)
+00:00:01.544868   Ia32eModeGuest - IA-32e mode guest                      = 0 (1)
+00:00:01.544868   EntryLoadEferMsr - Load IA32_EFER MSR on VM-entry       = 0 (1)
+00:00:01.544868   EntryLoadPatMsr - Load IA32_PAT MSR on VM-entry         = 0 (1)
+00:00:01.544869   ExitSaveDebugCtls - Save debug controls on VM-exit      = 0 (1)
+00:00:01.544869   HostAddrSpaceSize - Host address-space size             = 0 (1)
+00:00:01.544870   ExitAckExtInt - Acknowledge interrupt on VM-exit        = 0 (1)
+00:00:01.544870   ExitSavePatMsr - Save IA32_PAT MSR on VM-exit           = 0 (1)
+00:00:01.544870   ExitLoadPatMsr - Load IA32_PAT MSR on VM-exit           = 0 (1)
+00:00:01.544871   ExitSaveEferMsr - Save IA32_EFER MSR on VM-exit         = 0 (1)
+00:00:01.544871   ExitLoadEferMsr - Load IA32_EFER MSR on VM-exit         = 0 (1)
+00:00:01.544871   SavePreemptTimer - Save VMX-preemption timer            = 0 (1)
+00:00:01.544872   ExitSaveEferLma - Save IA32_EFER.LMA on VM-exit         = 0 (1)
+00:00:01.544872   IntelPt - Intel PT (Processor Trace) in VMX operation   = 0 (1)
+00:00:01.544873   VmwriteAll - VMWRITE to any supported VMCS field        = 0 (1)
+00:00:01.544873   EntryInjectSoftInt - Inject softint. with 0-len instr.  = 0 (1)
+00:00:01.544873 
+00:00:01.544874 ******************* End of VT-x features ********************
+00:00:01.544895 VMEmt: Halt method global1 (5)
+00:00:01.545007 VMEmt: HaltedGlobal1 config: cNsSpinBlockThresholdCfg=2000
+00:00:01.545043 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:01.546761 Audio: Initializing VRDE driver
+00:00:01.547114 VNC: port = 3389
+00:00:01.547204 VNC: Configuring password
+00:00:01.547466 Changing the VM state from 'CREATED' to 'POWERING_ON'
+00:00:01.547549 AIOMgr: Endpoints without assigned bandwidth groups:
+00:00:01.547557 AIOMgr:     /home/PPK.EDU/ol21/VM_discs/HQ-SRV.vdi
+00:00:01.547612 Changing the VM state from 'POWERING_ON' to 'RUNNING'
+00:00:01.547621 Console: Machine state changed to 'Running'
+00:00:01.548079 GUI: Capturing keyboard on resume
+00:00:01.548707 VMMDev: Guest Log: BIOS: VirtualBox 6.1.46
+00:00:01.548779 PCI: Setting up resources and interrupts
+00:00:01.549084 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:01.575333 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:01.575582 VNCServerImpl::VRDEResize to 720x400x32bpp
+00:00:01.575675 VMMDev: Guest Log: CPUID EDX: 0x178bfbff
+00:00:01.575754 PIIX3 ATA: Ctl#0: RESET, DevSel=0 AIOIf=0 CmdIf0=0x00 (-1 usec ago) CmdIf1=0x00 (-1 usec ago)
+00:00:01.575776 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:01.579008 AHCI#0: Reset the HBA
+00:00:01.579028 VD#0: Cancelling all active requests
+00:00:01.579065 AHCI#0: Port 0 reset
+00:00:01.579121 VD#0: Cancelling all active requests
+00:00:01.579616 VMMDev: Guest Log: BIOS: AHCI 0-P#0: PCHS=16383/16/63 LCHS=1024/255/63 0x0000000002800000 sectors
+00:00:01.579668 AHCI#0: Port 1 reset
+00:00:01.714072 AHCI#0: Port 2 reset
+00:00:01.879032 AHCI#0: Port 3 reset
+00:00:02.044027 AHCI#0: Port 4 reset
+00:00:02.048292 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:02.057321 GUI: 2D video acceleration is disabled
+00:00:02.057502 GUI: HID LEDs sync is not supported on this platform
+00:00:02.068239 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:02.208835 AHCI#0: Port 5 reset
+00:00:02.373751 AHCI#0: Port 6 reset
+00:00:02.538574 AHCI#0: Port 7 reset
+00:00:02.567597 GUI: Machine-window #0 deactivated
+00:00:02.567624 GUI: Releasing mouse on focus out
+00:00:02.567628 GUI: Releasing keyboard on focus out
+00:00:02.569646 GUI: Machine-view #0 unfocused, reason=3
+00:00:02.702654 AHCI#0: Port 8 reset
+00:00:02.867587 AHCI#0: Port 9 reset
+00:00:03.032429 AHCI#0: Port 10 reset
+00:00:03.197268 AHCI#0: Port 11 reset
+00:00:03.362046 AHCI#0: Port 12 reset
+00:00:03.526882 AHCI#0: Port 13 reset
+00:00:03.691721 AHCI#0: Port 14 reset
+00:00:03.856576 AHCI#0: Port 15 reset
+00:00:04.021378 AHCI#0: Port 16 reset
+00:00:04.186206 AHCI#0: Port 17 reset
+00:00:04.351045 AHCI#0: Port 18 reset
+00:00:04.515856 AHCI#0: Port 19 reset
+00:00:04.679927 AHCI#0: Port 20 reset
+00:00:04.844670 AHCI#0: Port 21 reset
+00:00:05.010122 AHCI#0: Port 22 reset
+00:00:05.175093 AHCI#0: Port 23 reset
+00:00:05.339045 AHCI#0: Port 24 reset
+00:00:05.503929 AHCI#0: Port 25 reset
+00:00:05.668761 AHCI#0: Port 26 reset
+00:00:05.833566 AHCI#0: Port 27 reset
+00:00:05.998446 AHCI#0: Port 28 reset
+00:00:06.163369 AHCI#0: Port 29 reset
+00:00:06.329082 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:00:06.383129 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007f6061c00000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0 origin=0,0
+00:00:06.383207 VNCServerImpl::VRDEResize to 640x480x32bpp
+00:00:08.822024 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:08.822212 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0231
+00:00:08.822362 VMMDev: Guest Log: BIOS: Boot from Floppy 0 failed
+00:00:08.822527 VMMDev: Guest Log: BIOS: Boot : bseqnr=2, bootseq=0023
+00:00:08.824019 VMMDev: Guest Log: BIOS: Booting from CD-ROM...
+00:00:08.877010 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:08.877102 VNCServerImpl::VRDEResize to 720x400x32bpp
+00:00:08.936539 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=81
+00:00:08.937044 VMMDev: Guest Log: int13_harddisk: function 00, unmapped device for ELDL=81
+00:00:08.937485 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=81
+00:00:08.937753 VMMDev: Guest Log: int13_harddisk: function 00, unmapped device for ELDL=81
+00:00:08.938101 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=81
+00:00:08.938366 VMMDev: Guest Log: int13_harddisk: function 00, unmapped device for ELDL=81
+00:00:12.303349 GUI: Machine-window #0 activated
+00:00:12.303408 GUI: Capturing keyboard on focus in
+00:00:12.303428 GUI: Machine-view #0 focused, reason=3
+00:00:16.874649 GIM: KVM: VCPU  0: Enabled system-time struct. at 0x0000000078201000 - u32TscScale=0x9f34e8b4 i8TscShift=0 uVersion=2 fFlags=0x1 uTsc=0x5bced4b2c uVirtNanoTS=0x39186f928 TscKHz=1607972
+00:00:16.874776 TM: Switching TSC mode from 'VirtTscEmulated' to 'RealTscOffset'
+00:00:16.945522 GIM: KVM: Enabled wall-clock struct. at 0x0000000078200000 - u32Sec=1725604309 u32Nano=33251629 uVersion=2
+00:00:16.979973 PIT: mode=2 count=0x4a9 (1193) - 1000.15 Hz (ch=0)
+00:00:16.980396 APIC0: Switched mode to x2APIC
+00:00:17.103647 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:17.110898 APIC1: Switched mode to x2APIC
+00:00:17.110917 GIM: KVM: VCPU  1: Enabled system-time struct. at 0x0000000078201040 - u32TscScale=0x9f34e8b4 i8TscShift=0 uVersion=2 fFlags=0x1 uTsc=0x5d39245fb uVirtNanoTS=0x39f9c1f07 TscKHz=1607972
+00:00:17.113458 APIC2: Switched mode to x2APIC
+00:00:17.113473 GIM: KVM: VCPU  2: Enabled system-time struct. at 0x0000000078201080 - u32TscScale=0x9f34e8b4 i8TscShift=0 uVersion=2 fFlags=0x1 uTsc=0x5d3d1055e uVirtNanoTS=0x39fc324de TscKHz=1607972
+00:00:17.115955 APIC3: Switched mode to x2APIC
+00:00:17.115969 GIM: KVM: VCPU  3: Enabled system-time struct. at 0x00000000782010c0 - u32TscScale=0x9f34e8b4 i8TscShift=0 uVersion=2 fFlags=0x1 uTsc=0x5d40e4113 uVirtNanoTS=0x39fe9399b TscKHz=1607972
+00:00:17.428276 IEM: rdmsr(0xc0011029) -> #GP(0)
+00:00:19.047801 AHCI#0: Reset the HBA
+00:00:19.047830 VD#0: Cancelling all active requests
+00:00:19.051746 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:19.051803 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:19.051840 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:19.051847 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:19.059042 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007f6061c00000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x1 origin=0,0
+00:00:19.059331 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.063434 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.066813 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.068318 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.070758 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.079675 PIIX3 ATA: Ctl#0: RESET, DevSel=0 AIOIf=0 CmdIf0=0xa0 (-1 usec ago) CmdIf1=0x00 (-1 usec ago)
+00:00:19.079858 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:19.107945 AHCI#0: Port 0 reset
+00:00:19.109359 VD#0: Cancelling all active requests
+00:00:19.259459 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.329800 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:19.467886 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.599215 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 800x600 if necessary
+00:00:19.675798 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:19.884103 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:20.091474 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:20.300571 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:20.509950 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:20.717638 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:20.924327 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:21.144786 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:21.349461 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:21.566669 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:21.780606 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:21.989225 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:22.196492 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:22.422151 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:22.629109 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:22.836416 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:23.047676 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:23.254593 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:23.470485 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:23.706677 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:23.912604 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:24.026015 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:24.028744 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:24.031982 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:24.035660 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:24.038520 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:26.747656 GUI: Machine-window #0 deactivated
+00:00:26.747702 GUI: Releasing mouse on focus out
+00:00:26.747709 GUI: Releasing keyboard on focus out
+00:00:26.749342 GUI: Machine-view #0 unfocused, reason=3
+00:00:29.436846 GUI: Machine-window #0 activated
+00:00:29.436894 GUI: Capturing keyboard on focus in
+00:00:29.436915 GUI: Machine-view #0 focused, reason=3
+00:00:30.127325 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.141229 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.149468 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.157512 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.185556 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.193039 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.194292 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.195499 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.197049 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.198830 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.201089 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.202483 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.203889 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.205988 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.238667 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.240458 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.292785 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.294391 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.295628 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.296875 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.298563 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.299816 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.301142 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.302690 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.388864 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.596914 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.805841 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:30.844940 GUI: Machine-window #0 deactivated
+00:00:30.844959 GUI: Releasing mouse on focus out
+00:00:30.844963 GUI: Releasing keyboard on focus out
+00:00:30.846287 GUI: Machine-view #0 unfocused, reason=3
+00:00:31.011962 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.103721 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.106074 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.108763 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.221541 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.271694 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.273050 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.274534 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.276510 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.277915 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.279479 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.281557 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.283242 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.284911 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.286648 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.290101 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.291982 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.293766 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.418192 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.428017 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.511453 VMMDev: Guest Log: vboxguest: host-version: 6.1.46r158378 0x8000000f
+00:00:31.511537 VMMDev: Guest Additions information report: Version 6.0.0 r127566 '6.0.0'
+00:00:31.511578 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00053100 (Linux >= 2.6, 64-bit)
+00:00:31.511681 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:31.511743 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:31.511759 VMMDev: vmmDevReqHandler_HeartbeatConfigure: No change (fHeartbeatActive=false)
+00:00:31.511788 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:31.511817 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:31.511844 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:31.511868 VMMDev: Heartbeat flatline timer set to trigger after 4 000 000 000 ns
+00:00:31.511894 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:31.511902 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:31.512449 VMMDev: Guest Log: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+00:00:31.512908 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:31.512930 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:31.512954 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:31.512960 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:31.636998 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.695617 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.697534 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.699544 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.702228 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.704114 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.706382 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.807437 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.810174 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.812314 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.815104 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.817099 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.818626 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.820457 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.844014 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.932768 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.934364 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.936034 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:31.939171 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.052977 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.079358 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.080813 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.103972 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.105843 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.107303 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.109489 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.111230 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.112707 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.117808 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.119230 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.120967 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.124215 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.189329 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.190460 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.191908 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.194132 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.195640 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.197887 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.199797 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.201792 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.212996 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.215844 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.218577 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.260084 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.332725 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.334509 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.336303 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.338606 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.341140 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.344606 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.431669 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.433240 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.434613 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.436606 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.439495 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.442042 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.448556 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.450600 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.452396 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.454306 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.456296 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.468066 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.526681 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.529480 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.531728 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.533467 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.535329 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.560376 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.561867 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.563814 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.565707 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.568805 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.570832 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.583066 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.584387 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.586058 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.587840 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.588928 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.592115 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.594765 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.602844 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.606151 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.609906 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.612426 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.614181 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.616086 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.618329 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.623290 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.625385 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.627683 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.630485 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.643563 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.645883 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.649745 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.657058 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.658562 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.662037 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.664706 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.666549 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.680828 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.772485 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.774872 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.778623 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.782209 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.784174 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.787070 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.790098 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:32.885063 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.090377 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.092587 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.094319 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.096912 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.100634 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.114255 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.116112 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.118273 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.120664 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.149592 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.151223 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.152583 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.154427 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.157425 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.159575 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.161603 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.163445 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.223327 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.225191 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.227225 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.229682 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.232608 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.263677 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.265661 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.267742 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.270706 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.301079 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.357508 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.358810 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.360524 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.362868 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.365056 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.366800 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.368620 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.403512 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.406438 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.410050 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.411861 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.414041 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.416164 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.510473 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.552303 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.553894 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.556011 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.558825 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.561013 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.564024 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.579775 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.582467 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.584455 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.586966 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.594045 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.595331 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.596905 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.599777 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.717063 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:33.928926 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.078771 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.080441 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.132191 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.147104 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.149693 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.151250 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.152484 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.154081 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:34.155936 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:37.073111 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:37.073146 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:37.073167 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:37.073170 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:37.073179 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:37.073182 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:37.085249 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:37.085259 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:37.085269 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:37.085272 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:37.278356 GUI: Releasing mouse on capabilities lost
+00:00:37.304008 GUI: Releasing mouse on capabilities lost
+00:00:37.328983 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.078701 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.080871 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.122998 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.187321 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.247042 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.307114 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.367798 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.427414 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.491177 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.552054 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.611702 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.671436 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.731170 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:39.795712 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:40.460890 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:40.467864 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:43.363308 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:43.371076 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:43.578959 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:43.627273 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:43.835154 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:43.866935 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:44.019628 GUI: Machine-window #0 activated
+00:00:44.019691 GUI: Capturing keyboard on focus in
+00:00:44.019734 GUI: Machine-view #0 focused, reason=3
+00:00:44.267563 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:44.533125 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:44.603642 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:45.084938 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:45.091999 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:45.771149 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:45.818922 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:46.259665 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:46.493591 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:46.580159 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:46.581747 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:46.738960 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:46.803207 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:46.827064 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:47.083542 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:47.230330 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:47.324349 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:47.984336 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:47.988775 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:48.451313 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:48.460043 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:48.851802 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:48.867280 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:49.885941 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:49.956339 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:50.518013 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:50.522593 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:50.676068 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:50.680301 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:51.635382 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:51.691883 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:51.700209 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:51.707722 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:54.524455 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:54.532342 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:54.540018 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:54.547817 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:54.635647 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:55.134299 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:55.228616 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:55.459829 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:55.465673 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:56.262425 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:56.332849 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:56.408857 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:56.876337 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:56.899889 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:57.243899 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:57.510453 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:57.517942 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:57.589009 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:57.598248 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.103683 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.108406 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.123488 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.155622 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.187960 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.220147 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.251792 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.283596 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.315410 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.347987 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.379754 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.411654 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.443780 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.475528 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.507334 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.555696 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.587957 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.619483 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.651297 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.684138 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.715781 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.747445 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.780235 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.811884 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.843666 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.875307 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.907995 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.955950 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:58.988243 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.020603 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.051382 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.084164 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.115848 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.147440 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.180224 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.211849 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.243585 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.275431 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.308142 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.356142 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.388571 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.419477 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.452250 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.483902 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.515695 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.547501 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.580226 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.611845 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.643660 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.675459 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.708258 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.756103 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.788244 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.819984 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.851608 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.883384 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.916152 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.947753 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:00:59.979539 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.011192 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.043892 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.075576 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.123447 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.156261 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.188364 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.220056 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.251648 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.283307 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.315868 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.347483 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.380215 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.411803 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.443439 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.475974 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.507596 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.555389 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.587948 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.619579 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.652345 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.683976 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.715634 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.747237 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.779863 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.811578 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.843343 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.875863 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.907479 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.956248 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:00.988460 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.020729 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.051438 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.084145 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.115724 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.147420 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.180016 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.211617 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.243406 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.275949 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.307640 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.355446 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.388740 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.418922 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.452061 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.483762 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.515357 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.547971 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.579678 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.612285 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.643855 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.675604 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.708248 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.756139 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.788172 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.819732 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.851522 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.884117 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.915741 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.947289 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:01.979864 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.011652 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.044324 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.075941 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.123722 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.155363 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.187861 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.219602 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.252208 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.283812 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.315605 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.348121 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.379758 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.411414 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.444016 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.475683 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.507373 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.556026 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.588161 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.619711 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.651478 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.684095 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.715727 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.747459 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.780185 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.811781 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.843364 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.876006 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.907537 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.955460 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:02.988017 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.019678 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.052344 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.083949 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.115668 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.148294 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.179889 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.211606 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.244319 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.275906 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.307541 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.356282 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.388441 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.420097 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.451730 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.486477 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.516015 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.547710 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.580383 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.611925 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.643675 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.676271 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.707856 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.755785 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.787650 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.820207 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.851894 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.883622 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.916205 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.947769 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:03.979470 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.012053 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.043817 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.075584 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.108141 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.157943 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.187833 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.219588 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.252677 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.284159 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.318016 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.347673 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.380301 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.412192 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.444240 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.476419 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.508182 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.556303 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.589051 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.619802 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.651415 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.684104 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.716136 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.748165 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.780687 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.812466 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.844633 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.875894 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.924076 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.958419 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:04.989943 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.021919 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.056307 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.086118 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.116228 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.147883 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.179977 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.211862 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.243714 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.276397 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.324223 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.355986 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.388087 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.419628 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.451791 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.484087 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.515859 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.548484 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.580163 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.611989 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.643795 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.676602 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.724477 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.756204 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.788129 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.819863 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.852493 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.884114 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.915937 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.948001 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:05.979754 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.012800 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.044396 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.076347 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.108572 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.156790 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.188925 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.220113 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.252489 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.284985 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.316837 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.348144 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.380778 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.411910 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.443834 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.476735 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.523649 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.553788 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.562295 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.567476 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:06.819994 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:07.884809 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:07.892966 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:08.146867 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:08.373140 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:08.420840 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:08.580896 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:08.973047 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:09.278823 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:09.280674 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:09.407332 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:09.413018 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:09.644785 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:10.633266 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:10.717422 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:10.840279 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:10.842005 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:11.413161 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:11.428703 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:11.628959 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:12.032100 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:12.045177 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:12.127749 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:12.132233 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:12.202456 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:12.455162 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:12.457852 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:13.600390 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:13.693936 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:13.871160 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:13.875187 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:14.090534 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:14.101041 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:14.460649 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.153261 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.245828 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.494544 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.499742 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.517022 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.520904 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.523733 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.525290 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.526758 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.541319 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.543434 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.574249 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.606104 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.637951 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.669702 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.701612 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.733451 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.766190 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.797503 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.830309 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.846369 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.861750 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.893342 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.925343 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.965938 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.967255 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.973247 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.979694 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.987223 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.993314 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:15.998931 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.007360 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.015080 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.021971 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.026749 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.033048 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.040977 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.047305 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.054275 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.061328 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.066509 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.072739 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.079025 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.084762 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.091137 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.097084 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.103706 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.110936 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.122656 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.127260 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.133282 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.140524 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.145675 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.152976 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.160044 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.166110 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.172120 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.178003 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.184033 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.189786 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.204285 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.215108 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.216333 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.240243 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.241570 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.311855 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.313264 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.455832 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.457339 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.516564 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.518132 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.561137 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.562614 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.616905 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.618306 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.665947 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.667158 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.709791 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.711432 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.755837 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.757207 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.815270 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.816758 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.869213 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.870705 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.910244 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.911388 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.967558 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:16.968862 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.012854 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.014224 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.064395 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.066001 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.144561 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.146403 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.194630 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.196662 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.251420 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.253330 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.308955 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.310863 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.393102 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.394415 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.439139 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.440487 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.479009 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.480380 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.545453 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.546638 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.593266 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.594624 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.660115 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.661479 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.699076 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.700351 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.762524 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.764018 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.822395 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.823773 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.873844 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.875958 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.927636 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:17.929088 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.084418 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.085820 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.142074 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.143297 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.428741 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.430119 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.558710 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.560696 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.697509 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.698982 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.716639 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.748437 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.780727 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.812543 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.844642 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.876611 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.908811 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.938739 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.940347 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.966851 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:18.994285 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.020393 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.047324 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.080528 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.110942 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.136930 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.164048 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.190608 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.217138 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.244096 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.273910 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.304302 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.333594 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.371533 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.402417 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.432982 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.463272 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.493901 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.521383 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.536387 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.561402 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.590724 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.628807 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.659040 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.685801 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.714371 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.744791 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.777999 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.803727 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.831502 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.860407 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.893292 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.926638 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.961490 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:19.992501 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.024002 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.061918 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.094751 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.134303 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.178582 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.204002 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.234028 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.268078 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.307441 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.339393 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.375557 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.406459 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.438940 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.474275 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.512368 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.548033 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.584850 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.623801 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.668784 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.708169 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.748203 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.788566 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.833302 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.871204 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.915311 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.954297 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:20.998748 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.632057 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.662964 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.697780 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.731626 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.762692 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.792734 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.827560 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.858926 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.891347 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.933283 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:21.980470 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:22.025778 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:22.454170 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.091165 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.126458 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.163393 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.196683 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.238234 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.245462 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.284655 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.347533 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.394196 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.430554 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.465397 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.501057 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.537727 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.592124 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.660605 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.696760 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.728279 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.772245 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.815742 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.857270 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.916803 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:23.961365 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.001994 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.040341 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.077047 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.117173 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.578011 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.638368 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.744165 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.808093 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.890299 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.956493 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:24.958584 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:25.111935 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:25.161835 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:25.206238 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:25.282247 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:25.968287 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:25.969804 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.163219 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.234183 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.282164 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.389696 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.471595 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.472911 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.518575 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.615905 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.672149 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.723504 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.773266 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.775152 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.828240 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.874152 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:26.926044 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.001331 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.052489 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.054123 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.100411 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.143063 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.183879 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.228112 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.272727 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.274832 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.317031 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.365519 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.414403 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.468470 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.519356 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.521154 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.574113 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.619220 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.676364 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.727871 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.792673 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.794528 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.852299 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.898467 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:27.954671 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.004054 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.058398 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.060013 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.102553 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.142252 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.186770 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.250687 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.302770 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.304532 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.363398 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.413755 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.472969 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.526553 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.592969 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.594712 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.661810 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.711103 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.766121 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.810667 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.860807 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.862425 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.910163 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:28.960696 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.013515 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.118866 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.169982 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.172072 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.215762 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.257099 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.302557 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.351605 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.427125 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.429482 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.473068 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.514864 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.658387 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.715765 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.807146 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.808946 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.851071 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:29.895628 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.002646 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.056378 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.136515 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.138279 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.205614 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.256676 GUI: Machine-window #0 deactivated
+00:01:30.256716 GUI: Releasing mouse on focus out
+00:01:30.256722 GUI: Releasing keyboard on focus out
+00:01:30.261311 GUI: Machine-view #0 unfocused, reason=3
+00:01:30.272483 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.322500 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.371333 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.415195 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.416730 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.468085 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.513951 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.557255 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.636489 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.684992 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.686525 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.725864 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.767882 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.811368 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.904488 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.951052 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.952661 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:30.992183 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.044477 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.124401 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.173639 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.231496 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.233122 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.277878 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.316043 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.356292 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.407206 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.448072 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.449624 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.493434 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.569008 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.621504 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.704121 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.768190 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.769506 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.904006 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:31.953360 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.005845 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.082970 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.128626 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.130814 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.200099 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.316713 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.404013 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.528644 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.639003 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.640878 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.863092 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:32.963326 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.040092 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.282936 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.374630 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.376524 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.499276 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.673591 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.898776 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:33.976806 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.050971 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.053006 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.128011 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.293778 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.373353 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.467682 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.651958 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.653797 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.733689 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.812393 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.894832 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:34.974624 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.115915 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.117914 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.252481 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.334737 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.422841 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.505320 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.589062 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.590286 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.721852 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.785459 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.851704 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:35.991210 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:36.066696 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:36.068276 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:36.245068 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:36.421554 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:36.500794 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:36.567057 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.227688 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.228925 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.312422 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.363072 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.419482 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.474374 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.518521 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.520395 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.563745 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.617651 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.676743 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.745590 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.852117 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.853730 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.901174 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:37.957519 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.053827 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.118124 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.176055 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.178154 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.237361 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.294020 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.367800 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.425613 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.485547 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.487607 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.543237 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.594277 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.664222 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.714919 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.764972 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.766914 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.856327 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:38.908923 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.048262 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.115447 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.175044 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.176441 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.223539 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.279289 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.341906 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.389982 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.433329 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.435305 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.875333 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:39.934697 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:40.050727 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:40.109621 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:40.247371 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:40.248958 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:40.328236 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:40.841162 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:40.965190 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.023715 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.113443 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.115520 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.171636 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.246697 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.323880 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.401394 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.458210 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.460085 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.511911 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.587379 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.643667 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.698494 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.756852 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.758751 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.831539 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.923685 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:41.987100 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.034051 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.102816 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.104543 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.202969 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.262237 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.314679 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.368983 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.439893 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.441479 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.505690 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:42.567110 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.001561 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.095874 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.144060 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.145883 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.193911 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.250125 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.296351 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.357499 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.415162 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.417047 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.471508 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.532452 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.611199 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.677088 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.727806 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.728942 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.784290 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.835368 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.893927 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:43.944947 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.068003 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.069482 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.138926 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.210485 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.275826 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.331701 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.385097 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.386755 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.440674 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.503222 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.566169 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.715440 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.821270 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.823481 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:44.888673 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.103310 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.214725 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.345130 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.400962 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.402737 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.484041 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.571223 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.638321 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.737932 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.822927 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.824581 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.888931 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:45.957428 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.128586 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.200718 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.253101 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.254845 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.307025 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.358707 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.404901 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.452271 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.507055 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.508770 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.557888 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.611626 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.684458 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.740104 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.787291 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.789024 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.840639 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:46.925517 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.007036 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.097366 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.152839 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.154848 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.302021 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.452275 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.533067 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.642179 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.702002 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.703987 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:47.972667 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:48.482758 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:48.708952 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.054248 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.226293 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.228623 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.285687 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.344702 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.397413 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.455064 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.534995 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.536601 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.592846 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.693328 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.741801 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.887383 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.952613 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:49.954233 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.084057 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.156601 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.226104 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.302827 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.350468 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.352200 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.412654 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.548263 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.622927 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.758405 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.843451 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.845642 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:50.898552 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:51.044900 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:51.772802 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:51.914250 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:51.974293 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:51.976245 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:52.037992 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:52.358873 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:52.859332 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:52.981383 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.042135 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.044398 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.095233 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.218165 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.298132 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.360398 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.420963 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.422740 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:53.809204 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.006579 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.124366 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.214465 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.282701 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.284351 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.333466 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.488365 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.615608 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.686753 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.743807 VNCServerImpl::VRDEResize to 800x600x32bpp
+00:01:54.755072 VNCServerImpl::VRDEResize to 800x600x32bpp

@@ -1,0 +1,28 @@
+ VBoxManage createvm --name BR-R --ostype RedHat_64 --register
+
+ VBoxManage modifyvm BR-R --cpus 4 --memory 4096 --vram 12
+
+ VBoxManage modifyvm BR-R --nic1 intnet
+
+ VBoxManage modifyvm BR-R --intnet1 "BR-R-BR-SRV"
+
+ VBoxManage createhd --filename /home/PPK.EDU/ol21/VM_discs/BR-R.vdi --size 20480 --variant Standard
+
+ VBoxManage storagectl BR-R --name "SATA Controller" --add sata --bootable on
+
+ VBoxManage storageattach BR-R --storagectl "SATA Controller" --port 0 --device 0 --type hdd --medium /home/PPK.EDU/ol21/VM_discs/BR-R.vdi
+
+ VBoxManage storagectl BR-R --name "IDE Controller" --add ide
+
+ VBoxManage storageattach BR-R --storagectl "IDE Controller" --port 0 --device 0 --type dvddrive --medium /home/PPK.EDU/ol21/'Рабочий стол'/alt_serv.iso
+
+ VBoxManage modifyvm BR-R --vrde on
+
+ vboxmanage startvm BR-R
+
+
+  VBoxManage modifyvm BR-R --nic4 nat
+
+
+26 маска на 64 адреса HQ
+28 маска на 16 адресов BRANCH
